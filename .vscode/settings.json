@@ -1,0 +1,10 @@
+{
+  "pasteImage.path": "${currentFileDir}/attachments",
+  "pasteImage.basePath": "${currentFileDir}",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "pasteImage.encodePath": "none",
+  "pasteImage.namePrefix": "",
+  "pasteImage.nameSuffix": "",
+  "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss",
+  "pasteImage.insertPattern": "![]( ${imageFilePath})"
+}
