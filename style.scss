@@ -1,12 +1,15 @@
 /*-- scss:defaults --*/
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-$theme-light: #fafbfc;
+$theme-light: #f8fbf8;
 $theme-yellow: #e8c85a;
 $theme-orange: #e8845a;
 $theme-red: #4f4e8d;
 $theme-grey: #2b2b2b;
-$theme-lightgrey: #90A1B8;
+$theme-lightgrey: #a3a3a2;
+$theme-blue: #4d80e6;
+$theme-green: #92de86;
+$theme-sage: #949b80;
 
 $body-bg: $theme-light;
 $body-color: $theme-grey;
@@ -85,25 +88,45 @@ display: flex;
 }
 
 .flow {
-  background-image: url(https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
-  background-attachment: fixed;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-	animation: animate 40s linear infinite;
-	font-weight: 900;
+  background: linear-gradient(transparent 58%, rgba($theme-yellow, 0.45) 58%);
+  font-weight: 900;
 }
+
+// Highlight class — mirrors web app, em-scaled for r-fit-text
+.highlight,
+.highlight-sm,
+.highlight-md,
+.highlight-lg,
+.highlight-xl {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%) rotate(-2deg);
+    background-color: $theme-yellow;
+  }
+}
+
+.highlight::before    { width: 110%; height: 0.85em; }
+.highlight-sm::before { width: 105%; height: 0.7em; }
+.highlight-md::before { width: 110%; height: 0.8em; }
+.highlight-lg::before { width: 115%; height: 0.9em; }
+.highlight-xl::before { width: 120%; height: 1.1em; }
+
+.highlight-orange::before { background-color: rgba($theme-orange, 0.4); }
+.highlight-blue::before   { background-color: rgba($theme-blue, 0.35); }
+.highlight-green::before  { background-color: rgba($theme-green, 0.5); }
 
 p, h1, h2, h3, h4, h5, h6 {
           font-family: "Atkinson Hyperlegible", sans-serif !important;
 
-}
-@keyframes animate {
-	0% {
-		background-position: left 0px top 10px;
-	}
-	40% {
-		background-position: left 800px top 10px;
-	}
 }
 
 // Quote slides

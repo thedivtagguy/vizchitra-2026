@@ -22,9 +22,7 @@ data storytelling
 [for the rest of us]{.flow}
 :::
 
-::: footer
-Presented at Purdue University
-:::
+
 
 ::: notes
 Thank you for having me. My name is Aman — it rhymes with "uh-mun," not "ay-man." I want to spend the next thirty minutes convincing you that the hardest parts of data storytelling are not mathematical. They're the things you're already being trained to do here.
@@ -104,6 +102,15 @@ Are namesake candidates able to confuse voters in Indian elections?
 
 ---
 
+## {background-image="attachments/2026-02-25-19-57-24.png" background-size="90%" background-color="#F1E6DC"}
+
+
+---
+
+## {background-image="attachments/2026-02-25-19-57-01.png" background-size="60%" background-color="#F4EBE3"}
+
+
+---
 
 ![]( attachments/2026-02-24-15-35-35.png){.textcenter .vcenter}
 
@@ -122,6 +129,31 @@ Googling for 'data visualization' is telling...
 ![]( attachments/![]( attachments/2026-02-24-16-48-52.png).png)
 
 ---
+
+![]( attachments/2026-02-25-12-59-06.png)
+
+---
+
+
+:::: {.columns}
+
+::: {.column width="40%" .center .textcenter}
+
+### Which is okay too!
+
+
+:::
+
+::: {.column width="60%"}
+
+![](attachments/seinfeld.gif){width="90%"}
+
+:::
+
+::::
+
+---
+
 
 :::{.textcenter}
 
@@ -171,6 +203,9 @@ A sequence of events. A protagonist. Conflict, resolution.
 
 Novels, films, plays, essays.
 
+
+## {background-image="attachments/2026-02-25-20-38-23.png" background-position="top"}
+
 # {.title .textcenter}
 
 
@@ -187,29 +222,6 @@ Whatever that form may be.
 Cole Nussbaumer Knaflic draws this distinction, and I find it genuinely useful. A capital-S Story is something like a great NYT interactive piece — it has a proper arc, characters, resolution. A lowercase story is something far more achievable: a single chart, a short report, an animation, that makes one thing visible to someone who couldn't see it before. That's the territory we're working in today.
 :::
 
----
-
-::: textcenter
-Big [Stories]{.red} can come together when one has clarity on the smaller [stories]{.orange}
-
-<br/>
-![]( attachments/2026-02-24-19-50-57.png)
-
-:::
-
-## {.textcenter}
-
-::: r-fit-text
-When you attempt more of the
-
-second kind of [story]{.orange}, a lot of
-
-possibilities open up.
-:::
-
-::: notes
-I want to show you a few examples that look nothing like what you might expect from "data visualization" — and which are, to me, some of the most exciting data stories made recently.
-:::
 
 
 
@@ -225,20 +237,52 @@ First example. Explain what this is and why it works as a story.
 
 ---
 
+## {background-image="attachments/2026-02-25-17-17-41.png" background-size="50%"}
+
+
+::: footer
+[Not Ship: Last call for third places?](https://www.not-ship.com/last-call-for-third-places/)
+:::
+
+
+---
+
 ## {background-image="attachments/spotify.png" background-size="contain"}
 
 ::: notes
 Spotify Wrapped is worth taking seriously. It turned personal data into an annual ritual — everyone shares it, everyone talks about it. It's an immensely successful data story, and it looks nothing like a dashboard. The data is the same listening logs any streaming platform has. The form is what made it social.
 :::
 
+## {.textcenter}
 
+::: r-fit-text
+When you think more of the
+
+second kind of [story]{.orange}, a lot of
+
+possibilities open up.
+:::
+
+::: notes
+I want to show you a few examples that look nothing like what you might expect from "data visualization" — and which are, to me, some of the most exciting data stories made recently.
+:::
+
+---
+
+::: textcenter
+Big [Stories]{.red} can come together when one has clarity on the smaller [stories]{.orange}
+
+<br/>
+![]( attachments/2026-02-24-19-50-57.png)
+
+:::
 
 ## {.textcenter}
 
 ::: r-fit-text
-For now, our territory is data
+Our 'stories' can even live inside the
 
-so our story lives in the viz
+small, understated dataviz we make
 :::
 
 ## {.textcenter}
@@ -267,6 +311,23 @@ Exploration is the process of turning over a hundred rocks to find one or two in
 ## {.textcenter}
 
 ![](attachments/2026-02-24-20-18-24.png)
+
+## {.textcenter}
+
+::: {.column-screen-inset-shaded style="position: relative; width: 100%; margin: auto;"}
+
+<img src="attachments/2026-02-24-20-18-24.png"
+     style="width: 100%; display: block; filter: brightness(40%);">
+
+<img src="attachments/2026-02-25-13-31-09.png"
+     style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: auto;">
+
+:::
+
+## {.textcenter}
+
+![](attachments/2026-02-24-20-18-24.png)
+
 
 ## {.textcenter}
 
@@ -310,6 +371,13 @@ her lyrics naturally became more repetitive...
 
 ## A story reduces exploration until [it fits in a sentence.]{.orange}
 
+<br/>
+
+What did _you_ see?
+
+How would you want to tell me about it?
+
+
 ::: notes
 The "aha" in a data story doesn't come from the math or the chart. It comes from the moment a reader recognizes something human inside the abstraction. That's a writer's job. A designer's job. Steinbeck said this about fiction, but it applies completely to data. If your story isn't about the person reading it, they will not listen. The data is just the mechanism by which you connect a question to a shared human experience.
 :::
@@ -318,8 +386,7 @@ The "aha" in a data story doesn't come from the math or the chart. It comes from
 # {.title}
 
 ::: r-fit-text
-The Anatomy of a
-
+Making a
 ['story']{.flow}
 :::
 
@@ -377,22 +444,41 @@ Something looked odd in the data, which lead me to read about cases that were re
 
 ::::
 
+## Call to actions become questions {background-color="#0B141A"}
 
-## {background-color="#0B141A"}
+<br/>
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="50%"}
 
-Rhea and I turned our daily Wordle fights into an data project that's been running 2 years.
+::: {.fragment fragment-index=1}
+How many times has it happened?
+:::
 
-Not world-changing for sure.
+::: {.fragment fragment-index=3}
+How often does it confuse people?
+:::
+
+::: {.fragment fragment-index=5}
+What are noteworthy instances?
+:::
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%" style="opacity: 60%;"}
 
-![]( attachments/2026-02-25-01-08-22.png){width="90%"}
+::: {.fragment fragment-index=2}
+→  _Counting occurrences_
+:::
+
+::: {.fragment fragment-index=4}
+→  _Average votes taken by namesakes_
+:::
+
+::: {.fragment fragment-index=6}
+→  _Extreme examples of small vote margins_
+:::
 
 :::
 
@@ -498,19 +584,17 @@ library(tidyverse)
 
 tuesdata <- tidytuesdayR::tt_load('2021-07-13')
 
-
-# Clean the dataset
 scoobydoo <- tuesdata$scoobydoo
 scoobydoo %>%
   mutate(total_episodes = n()) %>%
   filter(caught_daphnie == "TRUE") %>%
   summarize(
     "caught_by_daphne" = n(),
-    "total_episodes" = first(total_episodes) # This pulls just one "603"
+    "total_episodes" = first(total_episodes)
   ) %>%
   kable()
-
 ```
+
 
 :::
 
@@ -679,24 +763,29 @@ In our election story, we found one election where a ballot had the most number 
 
 ---
 
+
+## {background-iframe="https://diagramchasing.fun/2024/votes-in-a-name"}
+
 ## {.textcenter background-color="#FFFEFF"}
 
 ![](attachments/chandu.gif)
 
 ---
 
-
 I had also calculated a number for how similar two names are.
 
-. . .
+<br/>
 
-::: {.r-fit-text .incremental}
-Aman / Raman = [0.9]{.orange}
+::: {.r-fit-text}
 
+| Names | Similarity | [Face]{style="color: #F8FBF8;"} | [Face]{style="color: #F8FBF8;"} |
+|:---|:---:|:---:|:---:|
+| [Aman / Raman]{.fragment fragment-index=1} | [[0.9]{.orange}]{.fragment fragment-index=1} | [![](attachments/2026-02-25-20-57-57.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=1} | [![](attachments/2026-02-25-20-58-09.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=1} |
+| [Aman / John]{.fragment fragment-index=2} | [[0.0]{.red}]{.fragment fragment-index=2} | [![](attachments/2026-02-25-20-57-57.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=2} | [![](attachments/2026-02-25-21-10-22.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=2} |
 
-
-Aman / John = [0.0]{.red}
 :::
+
+---
 
 ## {.textcenter background-color="#fff"}
 
@@ -790,13 +879,6 @@ Orange is a drag-and-drop data mining tool with a visual node-based interface. Y
 
 ![]( attachments/2026-02-25-01-41-21.png)
 
----
-
-## R — if you want to go deep:
-
-::: r-fit-text
-// Show David Robinson screencasts
-:::
 
 ::: notes
 I'll say something that surprised me when I discovered it: R changed my life. Not because it made me a statistician, but because David Robinson's live screencast series showed me someone reasoning through a dataset in real time — asking questions, trying things, hitting dead ends, revising. It demystified the analytical process more than any course I've taken. If you want to try R, start with his screencasts. Not a textbook.
@@ -806,17 +888,31 @@ I'll say something that surprised me when I discovered it: R changed my life. No
 
 ## Consume a lot. Tinker constantly.
 
-::: {.incremental}
-- **Read:** The Pudding, Flowing Data, Nightingale (the DVS journal), Reuters Graphics
-- **Practice:** Tidy Tuesday — a weekly shared dataset, usable in any tool
-- **Make:** Pick one personal project. Challenge one specific thing — a new analysis method, a new visual form, a tool you've never tried
+<br/>
+
+::: {.columns}
+
+::: {.column .fragment width="30%"}
+### Read
+The Pudding, Flowing Data, Nightingale (DVS), Newsrooms
+:::
+
+::: {.column .fragment width="30%"}
+### Practice
+**Tidy Tuesday** is a weekly shared dataset, usable in any tool
+:::
+
+::: {.column .fragment width="30%"}
+### Make
+Pick a personal data project. Challenge a new method, form, or tool.
+:::
+
 :::
 
 ::: notes
 The pottery parable from *Art & Fear*: the class told to make the most pots made better pots than the class told to make the best pot. Frequency beats perfection. Every week you spend thirty minutes on a Tidy Tuesday dataset is worth more than a month of planning the perfect project. Small, consistent, personal work compounds faster than you expect.
 :::
 
----
 
 # {.title}
 
