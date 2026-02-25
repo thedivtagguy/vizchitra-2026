@@ -31,6 +31,7 @@ Thank you for having me. My name is Aman — it rhymes with "uh-mun." I'll be ta
 ## { .center}
 
 I am a [designer]{.red}, developer, [indie data-journalist]{.orange}.
+
 I sit in the middle of all three because I can't give up any of them.
 
 . . .
@@ -650,7 +651,7 @@ Steinbeck said, in the context of fiction, that if a story is not about the hear
 
 ---
 
-## Your finding has a shape
+## Readers probably want to know...
 
 - **Normals** - Describe what "typical" looks like
 - **Comparison** - How does one count compare to another?
@@ -658,7 +659,7 @@ Steinbeck said, in the context of fiction, that if a story is not about the hear
 - **Exceptions** - What's surprising? Some outliers?
 
 ::: notes
-Your findings tend to take one of four shapes: normals, comparisons, trends, or exceptions. Knowing which one you have tells you a lot about the form it wants to take. A comparison probably wants a bar chart or a slope. A trend wants a line. An exception wants isolation — you want to make the outlier impossible to miss.
+Your findings tend to take one of four shapes: normals, comparisons, trends, or exceptions. Knowing which one you have tells you a lot about the form it wants to take.
 :::
 
 ---
@@ -674,7 +675,10 @@ If you're stuck on what chart to use, the Dataviz Project is a useful reference 
 :::
 ---
 
-## {.textcenter}
+## Whatever you choose, remember to {.textcenter}
+
+<br/>
+<br/>
 
 ::: r-fit-text
 Commit /
@@ -793,18 +797,6 @@ The form is the last decision, and it is [entirely yours.]{.orange}
 Animation, illustration, interactive experiences, scrollytelling, sound — these are all available to you. The form is the last decision, and it is entirely yours. What matters is that you've asked a good question, done the analysis, and synthesized what you found. After that, the visual is genuinely up to you.
 :::
 
-# {.title}
-
-::: r-fit-text
-[Going beyond your course]{.flow}
-:::
-
-::: notes
-If you want to keep going after this here a few things that have actually helped me.
-:::
-
----
-
 ## {.textcenter}
 
 ::: r-fit-text
@@ -831,33 +823,6 @@ The tool is not the point. The question is the point. Pick whatever gets you to 
 ::: notes
 The Pudding has a series of tutorials where they recreate their analyses entirely in Excel — no code. These are excellent. They show you what those four operations look like on real data from projects you've probably already read.
 :::
-
----
-
-## Orange Data Mining {.textcenter}
-
-![]( attachments/2026-02-25-01-39-47.png)
-
-::: footer
-[Visual Programming for Data Analysis with Orange](https://aman.bh/blog/2025/visual-programming-with-orange)
-:::
-
-::: notes
-Orange is a drag-and-drop tool where you connect nodes to build an analysis, no code required. When I was teaching no-code analysis to designers, they loved it. You can do genuinely complex analysis by just connecting boxes. Very visual, very intuitive.
-:::
-
----
-
-##  {.textcenter}
-
-
-![]( attachments/2026-02-25-01-40-33.png)
-
-::: footer
-[Visual Programming for Data Analysis with Orange](https://aman.bh/blog/2025/visual-programming-with-orange)
-:::
-
----
 
 ## Consume a lot. {background-color="#242933"}
 
@@ -899,7 +864,7 @@ I want to end with this. There is no specific kind of data person, and no specif
 
 ## {.textcenter}
 
-That's me, thank you!
+Thank you!
 
 <br/>
 Website: [aman.bh](https://diagramchasing.fun) and [diagramchasing.fun](https://diagramchasing.fun)
