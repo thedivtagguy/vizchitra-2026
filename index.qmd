@@ -4,241 +4,937 @@ format:
     theme: [default, style.scss]
     width: 1600
     height: 900
-pagetitle: The Process of Data Storytelling — Purdue
+    center: true
+pagetitle: Data storytelling for the rest of us
+execute:
+  echo: false
+  warning: false
+  message: false
+revealjs-plugins:
+  - pointer
 ---
 
-# The Process of Data Storytelling
+## {.title .center}
 
-## Hello, I'm Aman! _uh-mun_
+::: r-fit-text
+data storytelling
 
-I am designer turned data visualization nerd.
+[for the rest of us]{.flow}
+:::
 
 
-My practice is focused on designing, developing and creating applications and stories from data.
+
+::: notes
+Thank you for having me. My name is Aman — it rhymes with "uh-mun," not "ay-man." I want to spend the next thirty minutes convincing you that the hardest parts of data storytelling are not mathematical. They're the things you're already being trained to do here.
+:::
+
+---
+
+## { .center}
+
+I am a [designer]{.red}, developer, [indie data-journalist]{.orange}.
+
+. . .
+
+I sit in the middle of all three because I can't give up any of them.
+
+. . .
 
 ![](attachments/2026-02-24-00-50-12.png)
 
----
-
-// Insert Work Collage
 
 ---
 
-In my free time, I my own data investigations, which is the stuff that _really_ excites me.
+## {background-image="attachments/reuters.jpg" background-size="90%"}
 
-Finding my own line of inquiry and following it through to produce something visual that others can read and engage with.
+## {.textcenter}
 
----
 
-## Votes in a Name
 
-## Word Games
+<video autoplay loop muted playsinline>
+<source src="attachments/rvl.mp4">
+</video>
 
-## Sherlock Holmes
 
----
-
-While all of it is centered around data, about 80% of the work is some form of design-thinking so all in all, it is a very right-brained activity. Which is what I want to talk about today.
-
-# Data Storytelling
-
-## This is something of a buzzword
-
-But there are two ways to think about it
+::: notes
+Here's a sample of work I've done across those different contexts — some of it for newsrooms and NGOs, made at RVL.
+:::
 
 ---
 
-1. Story - Grand narrative, sequence of events through time, leading to a revelation.
-2. story - Intentional piece of communication that means something to a reader.
+## {.textcenter}
+
+::: r-fit-text
+In my free time, I run my own data investigations, where I try
+
+finding questions and answering them
+
+[with data-viz.]{.flow}
+:::
+
+
+
+::: notes
+This is the work I find most alive. No brief, no client, no deadline beyond my own curiosity. I find something I want to understand, figure out what to count, and follow it until it becomes something a reader can engage with.
+:::
 
 ---
 
-When you think of the second kind of `story`, a lot of possibilities open up.
+## A few recent examples
 
 ---
 
-// JBM Charts
+:::{.textcenter}
 
-// Spotify Wrapped
+Are namesake candidates able to confuse voters in Indian elections?
 
-// Love letter to the subway
-
+![]( attachments/2026-02-24-14-46-19.png){.nostretch width="60%" .center}
+:::
 
 
 ---
 
-## Not every chart is a story
+![](attachments/2026-02-24-14-43-57.png){.textcenter}
 
-The data storytelling process involves two main things: explorations and explanations.
+---
+
+![](attachments/2026-02-24-14-44-35.png){.textcenter}
+
+---
+
+## {background-image="attachments/2026-02-25-19-57-24.png" background-size="90%" background-color="#F1E6DC"}
+
+
+---
+
+## {background-image="attachments/2026-02-25-19-57-01.png" background-size="60%" background-color="#F4EBE3"}
+
+
+---
+
+![]( attachments/2026-02-24-15-35-35.png){.textcenter .vcenter}
+
+---
+
+![](attachments/2026-02-24-16-04-20.png){.textcenter .vcenter}
+
+---
+
+## {background-image="attachments/games.png" background-size="cover"}
+
+---
+
+Googling for 'data visualization' is telling...
+
+![]( attachments/![]( attachments/2026-02-24-16-48-52.png).png)
+
+---
+
+![]( attachments/2026-02-25-12-59-06.png)
+
+---
+
+
+:::: {.columns}
+
+::: {.column width="40%" .center .textcenter}
+
+### Which is okay too!
+
+
+:::
+
+::: {.column width="60%"}
+
+![](attachments/seinfeld.gif){width="90%"}
+
+:::
+
+::::
+
+---
+
+
+:::{.textcenter}
+
+What we miss is thinking of it as a design problem
+
+![](attachments/2026-02-24-19-01-13.png){width="60%"}
+
+:::
+
+## {.textcenter}
+
+::: r-fit-text
+Design thinking applied
+
+to data-visualization is...
+:::
+
+
+::: notes
+The coding, the statistics, the spreadsheets — that's maybe 20% of what I do on any project. The other 80% is asking the right question, deciding what to measure, figuring out what the finding means, and choosing the form that reveals it. Those are design decisions. Creative decisions. And they're the decisions no tool can make for you.
+:::
+
+
+# {.title}
+
+::: r-fit-text
+
+
+[Data Storytelling]{.flow}
+:::
+
+::: notes
+Let's talk about what "data storytelling" actually means — because it's become a buzzword, and like all buzzwords, it has started to mean several different things at once.
+:::
+
+
+## There are two ways to think about a
+
+`s t o r y`
+
+
+# {.title .textcenter}
+
+[STORY]{style="font-size: 22vw; font-weight: 900; display: block; text-align: center;"}
+
+A sequence of events. A protagonist. Conflict, resolution.
+
+Novels, films, plays, essays.
+
+
+## {background-image="attachments/2026-02-25-20-38-23.png" background-position="top"}
+
+# {.title .textcenter}
+
+
+[story]{style="font-size: 22vw; font-weight: 900; display: block; text-align: center;"}
+
+
+Something clear to say, in a form that reaches someone.
+
+Whatever that form may be.
+
+
+
+::: notes
+Cole Nussbaumer Knaflic draws this distinction, and I find it genuinely useful. A capital-S Story is something like a great NYT interactive piece — it has a proper arc, characters, resolution. A lowercase story is something far more achievable: a single chart, a short report, an animation, that makes one thing visible to someone who couldn't see it before. That's the territory we're working in today.
+:::
+
+
+
+
+## {background-image="attachments/2026-02-24-19-32-44.png" background-size="contain"}
+
+::: footer
+[FT: A new global gender divide is emerging](https://www.ft.com/content/29fd9b5c-2f35-41bf-9d4c-994db4e12998)
+:::
+
+::: notes
+First example. Explain what this is and why it works as a story.
+:::
+
+---
+
+## {background-image="attachments/2026-02-25-17-17-41.png" background-size="50%"}
+
+
+::: footer
+[Not Ship: Last call for third places?](https://www.not-ship.com/last-call-for-third-places/)
+:::
+
+
+---
+
+## {background-image="attachments/spotify.png" background-size="contain"}
+
+::: notes
+Spotify Wrapped is worth taking seriously. It turned personal data into an annual ritual — everyone shares it, everyone talks about it. It's an immensely successful data story, and it looks nothing like a dashboard. The data is the same listening logs any streaming platform has. The form is what made it social.
+:::
+
+## {.textcenter}
+
+::: r-fit-text
+When you think more of the
+
+second kind of [story]{.orange}, a lot of
+
+possibilities open up.
+:::
+
+::: notes
+I want to show you a few examples that look nothing like what you might expect from "data visualization" — and which are, to me, some of the most exciting data stories made recently.
+:::
+
+---
+
+::: textcenter
+Big [Stories]{.red} can come together when one has clarity on the smaller [stories]{.orange}
+
+<br/>
+![]( attachments/2026-02-24-19-50-57.png)
+
+:::
+
+## {.textcenter}
+
+::: r-fit-text
+Our 'stories' can even live inside the
+
+small, understated dataviz we make
+:::
+
+## {.textcenter}
+
+::: r-fit-text
+Butttt, not every viz is a story.
+:::
 
 . . .
 
-Sometimes we show the readers our explorations rather than making a point.
+The data storytelling process has two distinct phases:
 
----
-
-This is one of the very first charts I ever made, 5 years ago.
-
-// Common Sense Media Chart
-
----
-
-Here is another chart analyze how repetitive each song in Taylor Swift's albums are. Visually, this is a much better chart but...
-
----
-
-## What do I want you to takeaway? I don't know!
-
-Your natural reaction to this would be "Okay, and?"
-
----
-
-For a `story`, you want to reduce your exploration to the point where it means something to someone else.
-
----
-
-> “If a story is not about the hearer he [or she] will not listen . . . The strange and foreign is not interesting--only the deeply personal and familiar.”  ― John Steinbeck, East of Eden
-
----
-
-## Constructing questions
-
-The "aha" in a data story rarely comes from the math or a specific chart.
+[exploration]{.orange} and [explanation.]{.red}
 
 . . .
 
-But rather, it comes from recognizing something relatable in that abstraction. Building this relation is more a creative skill than a statistical one.
+<br/>
+Sometimes we mistake showing readers our exploration
+
+when they came for an explanation.
+
+::: notes
+Exploration is the process of turning over a hundred rocks to find one or two interesting ones. Explanation is when you bring those two rocks to your reader and say: look at this. The mistake I made constantly when I was learning: I would show readers all hundred rocks. I was proud of the work. I wanted them to see it. But what they saw was a pile of rocks, not a story.
+:::
+
+## {.textcenter}
+
+![](attachments/2026-02-24-20-18-24.png)
+
+## {.textcenter}
+
+::: {.column-screen-inset-shaded style="position: relative; width: 100%; margin: auto;"}
+
+<img src="attachments/2026-02-24-20-18-24.png"
+     style="width: 100%; display: block; filter: brightness(40%);">
+
+<img src="attachments/2026-02-25-13-31-09.png"
+     style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: auto;">
+
+:::
+
+## {.textcenter}
+
+![](attachments/2026-02-24-20-18-24.png)
+
+
+## {.textcenter}
+
+
+![](attachments/2026-02-24-20-19-09.png)
+
+
+
+## {background-image="attachments/2026-02-24-20-02-49.png" background-size="contain" background-color="#D8D4CB"}
+
+::: notes
+Here's a more recent chart analyzing how repetitive each song in Taylor Swift's albums is. Visually, much better. But I want you to ask yourself: what do I want you to take away from this? Honestly, at this stage, I wasn't totally sure. The chart is interesting. But it doesn't have a point of view yet.
+:::
+
+## {.textcenter}
+
+::: r-fit-text
+[Okay, and?]{.orange}
+
+:::
+
+What do I want you to take away?
+
+::: notes
+"Okay, and?" is the most useful question you can ask of your own work. It forces you to name the point. If you can't answer it with a single clear sentence, you have an exploration, not an explanation. The work of synthesis is converting one into the other — and that conversion requires a creative decision, not a statistical one.
+:::
+
+## {background-image="attachments/2026-02-24-21-03-21.png" background-size="contain" background-color="#85827C"}
+
+:::{style="background-color: rgba(255, 255, 255, 0.85); border: 2px solid #333; border-radius: 10px; padding: 12px 25px; max-width: fit-content; font-size: 26px;"}
+
+As Swift moved into mainstream pop to write catchy songs,
+
+her lyrics naturally became more repetitive...
+:::
+
+
+
 
 ---
 
-// Insert the beginning of the votes story
+## A story reduces exploration until [it fits in a sentence.]{.orange}
 
-notes: To begin this larger story, I start off by introducing the problem to you. I take a real example and show you what the ballot would have looked like to the people voting that day and why this can be confusing. Some of us may scoff at such a mistake, but what I show you next is proof that this is a real problem and it happens to people around us. Even if _you_ don't find yourself having the same problem, the reality of the experience is undeniable.
+<br/>
+
+What did _you_ see?
+
+How would you want to tell me about it?
+
+
+::: notes
+The "aha" in a data story doesn't come from the math or the chart. It comes from the moment a reader recognizes something human inside the abstraction. That's a writer's job. A designer's job. Steinbeck said this about fiction, but it applies completely to data. If your story isn't about the person reading it, they will not listen. The data is just the mechanism by which you connect a question to a shared human experience.
+:::
+
+
+# {.title}
+
+::: r-fit-text
+Making a
+['story']{.flow}
+:::
+
+
+# {.title}
+
+::: r-fit-text
+[1. Call to Action]{.flow}
+:::
+
+::: notes
+The first move is not opening a spreadsheet. It's finding the itch — the thing you want to know badly enough to spend a week figuring out how to measure.
+:::
 
 ---
 
-## Seek to go one layer deeper
+## A call to action can come from anywhere.
 
-// Insert Matrix Graphics
 
----
-
-## Sometimes the data exists.
-
-If so, great! Onwards.
+1. Curiosity about something you read
+2. An argument you want to win
+3. A shared joke
+5. Assignments (welp)
 
 . . .
 
-More often, you have to decide what to measure, so you try to create a _proxy_! What is a number that best approximates your concept?
-
----
-
-For my concept of electoral 'confusion', the measure can be a number for how similar those names are.
-
-Aman / Damon = 0.7
-Aman / John = 0
-
----
-
-## Four Operations
-
-Numbers, a question, time for some math. Fortunately, arriving at interesting insights about your data can take as little as four key operations.
-
----
-
-1. count (how many?)
-2. filter (which ones?)
-3. sort (what's biggest/smallest?)
-4. group (how do categories compare?)
-
----
-
-// Show examples from Metro Story
-
-// Show examples of Milton
-
----
-
-If nothing interesting appears, that's a signal to revisit the question, not to run fancier statistics.
-
----
-
-Math for Journalists is a great resource for adding basic things to your toolkit that will make you even more confident.
-
-![](attachments/2026-02-24-00-33-48.png)
-
-## Synthesizing the Finding
-
-You've asked a question, measured something, and run your counts and comparisons. Now you have findings.
+At its worst, it's interesting only to you, which is still a win.
 
 . . .
 
-Synthesis is two moves: declare what you found and choose the form that reveals it.
+At its best, it's a relatable hook that someone would spend time on.
+
+::: notes
+I want to be honest about this. Not every project needs to be about electoral fraud or climate change. Some of my best work came from petty personal competitions. The R skills I now use for serious civic journalism came directly from wanting to prove that I beat my partner at Wordle more often than she admits. The obsession came first. The tool came because the obsession demanded it. That is always the right order.
+:::
 
 ---
 
- once you've run your operations, your findings tend to take one of four shapes
+## {background-color="#171717"}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+Something looked odd in the data, which lead me to read about cases that were reported in the news
+
+
+:::
+
+::: {.column width="60%"}
+
+![](attachments/2026-02-24-21-27-38.png){width="90%"}
+
+:::
+
+::::
+
+## Call to actions become questions {background-color="#0B141A"}
+
+<br/>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment fragment-index=1}
+How many times has it happened?
+:::
+
+::: {.fragment fragment-index=3}
+How often does it confuse people?
+:::
+
+::: {.fragment fragment-index=5}
+What are noteworthy instances?
+:::
+
+:::
+
+::: {.column width="50%" style="opacity: 60%;"}
+
+::: {.fragment fragment-index=2}
+→  _Counting occurrences_
+:::
+
+::: {.fragment fragment-index=4}
+→  _Average votes taken by namesakes_
+:::
+
+::: {.fragment fragment-index=6}
+→  _Extreme examples of small vote margins_
+:::
+
+:::
+
+::::
+
+## {.textcenter}
+
+![]( attachments/2026-02-24-21-58-35.png)
 
 ---
 
-### Normal Patterns
+## {.textcenter}
 
-What is the 'average', the usual?
+![]( attachments/2026-02-24-22-02-04.png)
 
-### Comparison
-
-How does one count compare to the other?
-
-### Trends
-
-Are things going up, down, staying the same?
-
-### Exceptions
-
-Interesting findings
+::: notes
+Here's how I visualize this depth of questioning. The surface of the question is countable and specific — that's what gets you into the data. The layer beneath is the one that makes readers feel something. You need both. The specificity gives you the data; the depth gives you the story.
+:::
 
 ---
 
-Form follows function, choose the chart you need!
+## {.textcenter}
+
+Without a guiding question things can get tedious...
+
+![](attachments/2026-02-24-23-50-57.png)
+
+##
+
+::: r-fit-text
+I am curious about [*[Topic]*]{.orange},
+
+so I will measure [*[Data]*]{.red}
+
+to see if [*[Hypothesis]*]{.grey} is true.
+:::
+
+::: footer
+
+Adapted from [Andrew Duckworth](https://grillopress.github.io/2018/12/19/trying-a-new-format-for-hypotheses.html)
+
+:::
+
+::: notes
+
+"I am curious about [Topic], so I will measure [Data] to see if [Hypothesis] is true.
+:::
+
+
+# {.title}
+
+::: r-fit-text
+[2. Analysis]{.flow}
+:::
+
+::: notes
+You have a question. You have a measurement. Now you need to find something in the data. This is the part that scares creative people most, and I want to be direct: it shouldn't. The math here is simpler than anything you've done in a single design course.
+:::
+
+
+
+## Arriving at interesting insights can take as little as [four operations.]{.orange}
+
+::: {.incremental}
+1. **Count** - How many?
+2. **Filter** - Which ones?
+3. **Sort** - What's biggest or smallest?
+4. **Group** - How do categories compare?
+:::
 
 ---
 
-## Or...don't choose a chart at all?
+And these can be **composed**, meaning you can combine them:
 
-We can do this through animations, illustrations, games, interactive websites. Whatever you want!
+1. First filter for something
+2. Group it into categories
+3. Count items within categories
 
-// Show the face interactive from Votes in a Name
+---
+
+## Simple (but shocking) example
+
+:::: {.columns}
+
+::: {.column width="40%"}
 
 
-# Going beyond your course
+![](attachments/2026-02-25-00-19-08.png){width="200px"}
 
-How do you do this, how do you get better at it?
+[Someone catalogued 603 episodes of Scooby Doo](https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-07-13), let's count how many times Daphne catches a monster...
+
+:::
+
+::: {.column width="60%" .fragment .center}
+
+<br/>
+<br/>
+
+```{r}
+library(tidyverse)
+library(knitr)
+library(tidyverse)
+
+tuesdata <- tidytuesdayR::tt_load('2021-07-13')
+
+scoobydoo <- tuesdata$scoobydoo
+scoobydoo %>%
+  mutate(total_episodes = n()) %>%
+  filter(caught_daphnie == "TRUE") %>%
+  summarize(
+    "caught_by_daphne" = n(),
+    "total_episodes" = first(total_episodes)
+  ) %>%
+  kable()
+```
+
+
+:::
+
+::::
+
+
+::: notes
+Edward Tufte wrote that the fundamental analytical act in all of statistics is answering one question: "Compared with what?" These four operations are all in service of that single question. Counting alone gives you a number. Counting compared to something gives you a finding. Everything else — regressions, machine learning, Bayesian inference — is built on top of these four operations. You don't need the rest to tell a good story.
+:::
+
+---
+
+## {background-color="#3B1F2C"}
+
+![]( attachments/2026-02-25-02-33-38.png)
+
+---
+
+## Largest, Smallest, Most, Least...{background-color="#F4F4F4"}
+
+<br/>
+
+![](attachments/2026-02-25-00-28-36.png)
+
+
+::: footer
+[How Bangalore Uses The Metro](https://diagramchasing.fun/2025/how-bangalore-uses-the-metro)
+:::
+
+---
+
+## {.textcenter}
+
+::: r-fit-text
+If nothing interesting appears,
+
+that's a signal to [revisit the question]{.orange},
+
+not to run fancier statistics.
+:::
+
+::: notes
+This is something I had to learn the hard way. When analysis returns nothing, the instinct is to go deeper into the math — to try a more sophisticated technique. That's almost never the right move. Usually it means the question wasn't specific enough, or the proxy wasn't a good approximation of the concept. The exit from a dead end is backwards, not forwards.
+:::
+
+# {.title}
+
+::: r-fit-text
+[3. Synthesis]{.flow}
+:::
+
+::: notes
+You've asked a question, built a measurement, run your four operations. Now you have findings. Synthesis is two moves: declare what you found, and choose the form that reveals it.
+:::
+
+
+---
+
+![]( attachments/2026-02-25-00-47-15.png)
+
+---
+
+![]( attachments/2026-02-25-00-47-24.png)
+
+---
+
+## {.textcenter}
+
+![]( attachments/2026-02-25-00-55-14.png)
+
+
+## {.pullquote}
+
+> *"If a story is not about the hearer he will not listen... The strange and foreign is not interesting — only the deeply personal and familiar"*
+>
+> — John Steinbeck, *East of Eden*
+
+---
+
+## Your findings tend to take one of four shapes
+
+
+::: {.incremental}
+- **Normals** - Describe what "typical" looks like
+- **Comparison** - How does one count compare to another?
+- **Trends** - Are things going up, going down, staying the same?
+- **Exceptions** - What's surprising? Some outliers?
+:::
+
+---
+
+![]( attachments/2026-02-25-01-06-19.png)
+
+::: footer
+
+[The Dataviz Project](https://datavizproject.com/#)
+:::
+
+
+
+---
+
+![]( attachments/2026-02-25-00-55-57.png)
+
+---
+
+![]( attachments/2026-02-25-00-56-16.png)
+
+
+
+::: notes
+This is the bridge between analysis and design, and it's where your design training fully activates. If your finding is a comparison, you probably want a bar chart or a slope chart. If it's a trend, you want a line. If it's an exception, you want to isolate the outlier and make it impossible to miss. You are not just reporting — you are choosing the form that will make the finding legible to someone who wasn't in your spreadsheet with you.
+:::
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+We might not even restrict ourselves to charts.
+
+<br/>
+
+In our election story, we found one election where a ballot had the most number of namesake candidates...
+
+:::
+
+::: {.column width="50%" .fragment}
+
+| |
+|---|
+| CHANDU LAL SAHU |
+| CHANDU LAL SAHU |
+| CHANDU LAL SAHU |
+| CHANDU LAL SAHU |
+| CHANDU LAL SAHU |
+| <span style="background-color: #90EE90; display: block;">CHANDU LAL SAHU</span> |
+| CHANDOO LAL SAHU |
+| CHANDU RAM SAHU |
+| CHANDU LAL SAHU |
+| CHANDURAM SAHU |
+| CHANDU RAM SAHU |
+| CHANDU LAL SAHU |
+
+:::
+
+::::
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](attachments/2026-02-24-21-17-41.png){width="74%"}
+
+:::
+
+::: {.column width="50%"}
+
+![](attachments/2026-02-24-21-18-15.png){width="80%"}
+
+:::
+
+::::
+
+---
+
+
+## {background-iframe="https://diagramchasing.fun/2024/votes-in-a-name"}
+
+## {.textcenter background-color="#FFFEFF"}
+
+![](attachments/chandu.gif)
+
+---
+
+I had also calculated a number for how similar two names are.
+
+<br/>
+
+::: {.r-fit-text}
+
+| Names | Similarity | [Face]{style="color: #F8FBF8;"} | [Face]{style="color: #F8FBF8;"} |
+|:---|:---:|:---:|:---:|
+| [Aman / Raman]{.fragment fragment-index=1} | [[0.9]{.orange}]{.fragment fragment-index=1} | [![](attachments/2026-02-25-20-57-57.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=1} | [![](attachments/2026-02-25-20-58-09.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=1} |
+| [Aman / John]{.fragment fragment-index=2} | [[0.0]{.red}]{.fragment fragment-index=2} | [![](attachments/2026-02-25-20-57-57.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=2} | [![](attachments/2026-02-25-21-10-22.png){height="1.5em" style="vertical-align: middle;"}]{.fragment fragment-index=2} |
+
+:::
+
+---
+
+## {.textcenter background-color="#fff"}
+
+![]( attachments/2026-02-25-01-28-52.png)
+
+## {.textcenter background-color="#FFFEFF"}
+
+![](attachments/game.gif)
+
+
+
+## Don't restrict yourself! Use the right-side of your brain all you want
+
+::: {.incremental}
+- Animations
+- Illustration and hand-drawn visuals
+- Interactive experiences
+- Scrollytelling
+- Sound and audio
+- Whatever form best serves the feeling
+:::
 
 . . .
 
-Firstly, pick the tool that removes the most friction between you and the question.
+The form is the last decision, and it is [entirely yours.]{.orange}
 
-## Data Analysis with Excel
+::: notes
+This is where your specific training becomes your greatest advantage. An animator knows how to guide attention through time. A game designer knows how to make someone want to keep clicking — to feel agency inside a system. A UX designer knows how to reduce friction between a person and understanding. These are not soft skills applied to hard data. They are exactly the skills that determine whether anyone actually encounters the finding you worked so hard to produce.
+:::
 
-// Show Pudding Tutorial
 
-## Orange Data Mining
+# {.title}
 
-// Show blogpost snippets
+::: r-fit-text
+[Going beyond your course]{.flow}
+:::
 
-## R!
+::: notes
+I want to spend the last few minutes on a practical question: how do you actually get better at this? Not in theory — concretely, starting this week.
+:::
 
-Show drob's screencasts
+---
 
-## Consume a lot, practice a lot
+## {.textcenter}
 
-Blog suggestions
-Tidytuesday
-Tinker on the regular!
+::: r-fit-text
+Pick the tool that removes the most
 
-# You don't have to become 'data' people
+[friction between you and the question.]{.orange}
+:::
 
-> I consider myself to be a “professional question asker”. Amber Thomas
+::: notes
+The tool is not the point. The question is the point. But the wrong tool — one you're fighting against, one that requires ten steps to do something simple — will drain your energy before you get to the part that matters. Pick the tool that gets you to your answer the fastest, even if it's not the most powerful available. Upgrade when the question demands it.
+:::
 
-Bring your existing sensibilities — for story, for form, for empathy, for play — into a domain that wants and needs them! Have fun.
+---
+
+## The tools exist at every level of the stack.
+
+## Excel with The Pudding {.textcenter}
+
+![]( attachments/2026-02-25-01-34-58.png)
+
+::: footer
+
+[How to recreate our charts without code](https://pudding.cool/process/no-code-charts/)
+:::
+
+::: notes
+The Pudding has produced a series of tutorials that recreate their famous data analyses entirely in Excel — no code required. These are excellent. They show you the four operations in action on real data from projects you've probably read. If you're already working in Excel and Power BI, this is your on-ramp into data storytelling methodology without learning any new tools.
+:::
+
+---
+
+## Orange Data Mining {.textcenter}
+
+![]( attachments/2026-02-25-01-39-47.png)
+
+::: notes
+Orange is a drag-and-drop data mining tool with a visual node-based interface. You connect operations and watch what happens to your data without writing a single line. For visual thinkers, it's a much more intuitive way to understand what statistical operations are actually doing to your data.
+:::
+
+---
+
+##  {.textcenter}
+
+
+![]( attachments/2026-02-25-01-40-33.png)
+
+##  {.textcenter}
+
+![]( attachments/2026-02-25-01-41-21.png)
+
+
+::: notes
+I'll say something that surprised me when I discovered it: R changed my life. Not because it made me a statistician, but because David Robinson's live screencast series showed me someone reasoning through a dataset in real time — asking questions, trying things, hitting dead ends, revising. It demystified the analytical process more than any course I've taken. If you want to try R, start with his screencasts. Not a textbook.
+:::
+
+---
+
+## Consume a lot. Tinker constantly.
+
+<br/>
+
+::: {.columns}
+
+::: {.column .fragment width="30%"}
+### Read
+The Pudding, Flowing Data, Nightingale (DVS), Newsrooms
+:::
+
+::: {.column .fragment width="30%"}
+### Practice
+**Tidy Tuesday** is a weekly shared dataset, usable in any tool
+:::
+
+::: {.column .fragment width="30%"}
+### Make
+Pick a personal data project. Challenge a new method, form, or tool.
+:::
+
+:::
+
+::: notes
+The pottery parable from *Art & Fear*: the class told to make the most pots made better pots than the class told to make the best pot. Frequency beats perfection. Every week you spend thirty minutes on a Tidy Tuesday dataset is worth more than a month of planning the perfect project. Small, consistent, personal work compounds faster than you expect.
+:::
+
+
+# {.title}
+
+::: r-fit-text
+You don't have to become
+
+['data people.']{.flow}
+:::
+
+::: notes
+I want to end with this, because I think it's the most important thing I can say to this room.
+:::
+
+---
+
+## {.textcenter}
+
+::: r-fit-text
+*"I consider myself to be a*
+
+*[professional question asker.]{.orange}"*
+:::
+
+— Amber Thomas, The Pudding
 
