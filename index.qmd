@@ -1,17 +1,26 @@
 ---
+pagetitle: data storytelling in lowercase
+title: "data storytelling in lowercase"
+description: "What I mean by data storytelling"
+author: "Aman Bhargava"
+site-url: "https://aman.bh/talks/purdue-2026/"
+image: "assets/sharecard.jpg"
+image-alt: "Cover slide for data storytelling in lowercase presentation"
+open-graph: true
+
 format:
   revealjs:
     theme: [default, style.scss]
     width: 1600
     height: 900
     center: true
-pagetitle: Data storytelling for the rest of us
+    include-in-header: header.html
 execute:
   echo: false
   warning: false
   message: false
 revealjs-plugins:
-  - pointer-sync
+  - pointer
 ---
 
 ## {.title .center}
