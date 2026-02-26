@@ -23,7 +23,7 @@ data storytelling
 :::
 
 ::: notes
-Thank you for having me. My name is Aman — it rhymes with "uh-mun." I'll be talking about what 'data storytelling' means to me and what it looks like in my process.
+Thank you for having me. My name is Aman, it rhymes with "uh-mun." I'll be talking about what 'data storytelling' means to me and what it looks like in my process.
 :::
 
 ---
@@ -110,7 +110,7 @@ But in that particular election, almost 2,000 people voted for the wrong Rahul G
 ![]( attachments/2026-02-24-15-35-35.png){.textcenter .vcenter}
 
 ::: notes
-Then I also do this just for fun. Me and Rhea play the NYT word games every single day — Wordle, Connections, the Crossword. For the past two years we've been tracking our results.
+Then I also do this just for fun. Me and Rhea play the NYT word games every single day, Wordle, Connections, the Crossword. For the past two years we've been tracking our results.
 :::
 
 ---
@@ -293,7 +293,7 @@ small, understated dataviz we make
 :::
 
 ::: notes
-This applies to the small everyday charts we make — for assignments, for clients, for fun. The story can live inside something very simple. But only if you've committed to what it's about.
+This applies to the small everyday charts we make, for assignments, for clients, for fun. The story can live inside something very simple. But only if you've committed to what it's about.
 :::
 
 ## {.textcenter}
@@ -324,7 +324,7 @@ But, and this is important, not every visualization is a story. The data storyte
 ![](attachments/2026-02-24-20-18-24.png)
 
 ::: notes
-Here's an early example of mine. This is from Common Sense Media — they review movies for parents and one of the things they do is tag characters as positive or negative role models. Red is male, blue is female. There are a lot of design problems here.
+Here's an early example of mine. This is from Common Sense Media, they review movies for parents and one of the things they do is tag characters as positive or negative role models. Red is male, blue is female. There are a lot of design problems here.
 :::
 
 ## {.textcenter}
@@ -353,7 +353,7 @@ What do I want you to take away?
 :::
 
 ::: notes
-"Okay, and?" is the most useful question you can ask of your own work. If you can't answer it with a single clear sentence — what is the point of this, what do you want me to take away — you have an exploration, not an explanation. The synthesis is converting one into the other.
+"Okay, and?" is the most useful question you can ask of your own work. If you can't answer it with a single clear sentence, what is the point of this, what do you want me to take away, you have an exploration, not an explanation. The synthesis is converting one into the other.
 :::
 
 ## {background-image="attachments/2026-02-24-21-03-21.png" background-size="contain" background-color="#85827C"}
@@ -365,7 +365,7 @@ her lyrics naturally became more repetitive...
 :::
 
 ::: notes
-The answer here isn't complicated. As Taylor Swift moved into more mainstream pop to write catchy songs, her lyrics naturally became more repetitive — that's just the nature of those songs. That's it. I just needed to say it. I just didn't commit to it.
+The answer here isn't complicated. As Taylor Swift moved into more mainstream pop to write catchy songs, her lyrics naturally became more repetitive, that's just the nature of those songs. That's it. I just needed to say it. I just didn't commit to it.
 :::
 
 ---
@@ -422,7 +422,7 @@ At its worst, it's interesting only to you, which is still a win.
 At its best, it's a relatable hook that someone would spend time on.
 
 ::: notes
-It can come from something you read, an argument you want to win, a shared joke, or yes, an assignment. At its worst, it's interesting only to you — which is still a win, because if you care about what you're visualizing, you'll have something to say about it. At its best, it's a hook someone else would spend time on. It's worth thinking about this phase intentionally.
+It can come from something you read, an argument you want to win, a shared joke, or yes, an assignment. At its worst, it's interesting only to you, which is still a win, because if you care about what you're visualizing, you'll have something to say about it. At its best, it's a hook someone else would spend time on. It's worth thinking about this phase intentionally.
 :::
 
 ---
@@ -439,7 +439,7 @@ Something looked odd in the data, which lead me to read about cases that were re
 ::::
 
 ::: notes
-For the election project, it started with a conversation. I noticed names looking similar in some data I was poking at. My friend said — yeah, this is actually a known thing. I started reading about it in the news. And I couldn't find anyone who'd measured how often it happens. That gap became the call to action.
+For the election project, it started with a conversation. I noticed names looking similar in some data I was poking at. My friend said, yeah, this is actually a known thing. I started reading about it in the news. And I couldn't find anyone who'd measured how often it happens. That gap became the call to action.
 :::
 
 
@@ -473,7 +473,7 @@ What are noteworthy instances?
 ::::
 
 ::: notes
-A call to action then becomes a set of measurable questions. How many times has this happened? That's countable. How often does it confuse people? That's vague — so I translate it into something I can measure, like the average number of votes taken by namesake candidates. What are the noteworthy instances? That becomes: filter for the extreme cases where the margin was the smallest.
+A call to action then becomes a set of measurable questions. How many times has this happened? That's countable. How often does it confuse people? That's vague, so I translate it into something I can measure, like the average number of votes taken by namesake candidates. What are the noteworthy instances? That becomes: filter for the extreme cases where the margin was the smallest.
 :::
 
 
@@ -492,7 +492,7 @@ When we're starting out, we tend to ask questions that are both vague and trivia
 ![]( attachments/2026-02-24-22-02-04.png)
 
 ::: notes
-Simple questions — how many, what's the distribution, what's the comparison — open the door to deeper questions. Why does it happen? What's the consequence? Because this happened, therefore this happened. You start with something trivial and countable, and it leads you somewhere interesting.
+Simple questions, how many, what's the distribution, what's the comparison, open the door to deeper questions. Why does it happen? What's the consequence? Because this happened, therefore this happened. You start with something trivial and countable, and it leads you somewhere interesting.
 :::
 
 ##
@@ -585,7 +585,7 @@ scoobydoo %>%
 ::::
 
 ::: notes
-Simple example. Someone watched all 603 episodes of Scooby-Doo and catalogued variables — including who catches the monster in each episode. Daphne is famously the damsel in distress. So I just counted: how many episodes does she actually catch the monster?  In almost 95% of episodes, Daphne is not the one catching anything. That single count, by itself, tells a story about how the show is written. We could then compare with Velma, compare male and female characters overall. But it started with just counting.
+Simple example. Someone watched all 603 episodes of Scooby-Doo and catalogued variables, including who catches the monster in each episode. Daphne is famously the damsel in distress. So I just counted: how many episodes does she actually catch the monster?  In almost 95% of episodes, Daphne is not the one catching anything. That single count, by itself, tells a story about how the show is written. We could then compare with Velma, compare male and female characters overall. But it started with just counting.
 :::
 
 ---
@@ -600,7 +600,7 @@ Simple example. Someone watched all 603 episodes of Scooby-Doo and catalogued va
 :::
 
 ::: notes
-Filtering for extremes is also very useful. In this story about Bangalore's metro, I was looking at average ridership on any given route. And I found that on one specific route — station A to station B to station D — there was only one person traveling that unique path every day. Versus 300 people on any average pair of stations. That's a finding. And it came from just sorting to find the bottom of a list.
+Filtering for extremes is also very useful. In this story about Bangalore's metro, I was looking at average ridership on any given route. And I found that on one specific route, station A to station B to station D, there was only one person traveling that unique path every day. Versus 300 people on any average pair of stations. That's a finding. And it came from just sorting to find the bottom of a list.
 :::
 
 ---
@@ -648,7 +648,7 @@ Or I could ask: do you want to know if your work commute is like everyone else's
 
 ## {.pullquote}
 
-> *"If a story is not about the hearer he will not listen... The strange and foreign is not interesting — only the deeply personal and familiar"*
+> *"If a story is not about the hearer he will not listen... The strange and foreign is not interesting, only the deeply personal and familiar"*
 >
 > — John Steinbeck, *East of Eden*
 
@@ -678,7 +678,7 @@ Your findings tend to take one of four shapes: normals, comparisons, trends, or 
 :::
 
 ::: notes
-If you're stuck on what chart to use, the Dataviz Project is a useful reference — it catalogs chart types by what kind of relationship they show. But the key point is that the form follows the finding. You pick the form last, not first.
+If you're stuck on what chart to use, the Dataviz Project is a useful reference it catalogs chart types by what kind of relationship they show. But the key point is that the form follows the finding. You pick the form last, not first.
 :::
 ---
 
@@ -729,7 +729,7 @@ In our election story, we found one election where a ballot had the most number 
 ::::
 
 ::: notes
-And we don't even have to use a chart at all. In the election story, I found one election with the most extreme case of namesake candidates — a ballot where one candidate was facing eleven other people with nearly the same name. Chandu Lal Sahu facing ten or eleven other Chandu Lal Sahus. When I found this in the data, I was genuinely amused. I told my illustrator friend about it and said — I don't want to show this with a chart. And he came back with ideas.
+And we don't even have to use a chart at all. In the election story, I found one election with the most extreme case of namesake candidates a ballot where one candidate was facing eleven other people with nearly the same name. Chandu Lal Sahu facing ten or eleven other Chandu Lal Sahus. When I found this in the data, I was genuinely amused. I told my illustrator friend about it and said I don't want to show this with a chart. And he came back with ideas.
 :::
 
 ---
@@ -746,7 +746,7 @@ And we don't even have to use a chart at all. In the election story, I found one
 ::::
 
 ::: notes
-He asked: what if it was like a scratch card, where you shuffle and you don't know which Chandu you're going to get? Or like a candy machine where there are duplicates? I loved the scratch card idea because it captured exactly what it would feel like to not know who the real candidate is — especially if you're an illiterate voter trying to recognize a name on a ballot.
+He asked: what if it was like a scratch card, where you shuffle and you don't know which Chandu you're going to get? Or like a candy machine where there are duplicates? I loved the scratch card idea because it captured exactly what it would feel like to not know who the real candidate is especially if you're an illiterate voter trying to recognize a name on a ballot.
 :::
 
 ## {.textcenter background-color="#FFFEFF"}
@@ -773,7 +773,7 @@ I had also calculated a number for how similar two names are.
 :::
 
 ::: notes
-I had also calculated a similarity score for how alike two names are, as part of the analysis. I was trying to figure out how to turn that number into a visual. My partner — who's an illustrator — suggested: what if names that score high generate faces that look similar, and names that score low generate faces that look different? Aman and Raman, very similar names, very similar faces. Aman and John, very different.
+I had also calculated a similarity score for how alike two names are, as part of the analysis. I was trying to figure out how to turn that number into a visual. My partner who's an illustrator suggested: what if names that score high generate faces that look similar, and names that score low generate faces that look different? Aman and Raman, very similar names, very similar faces. Aman and John, very different.
 :::
 
 
@@ -782,7 +782,7 @@ I had also calculated a similarity score for how alike two names are, as part of
 ![](attachments/game.gif)
 
 ::: notes
-So that's what we built. It's one form of encoding — but it came from having a specific finding and asking what form would make it feel real to someone.
+So that's what we built. It's one form of encoding but it came from having a specific finding and asking what form would make it feel real to someone.
 :::
 
 ## Don't restrict yourself! Use the right-side of your brain all you want
@@ -801,7 +801,7 @@ So that's what we built. It's one form of encoding — but it came from having a
 The form is the last decision, and it is [entirely yours.]{.orange}
 
 ::: notes
-Animation, illustration, interactive experiences, scrollytelling, sound — these are all available to you. The form is the last decision, and it is entirely yours. What matters is that you've asked a good question, done the analysis, and synthesized what you found. After that, the visual is genuinely up to you.
+Animation, illustration, interactive experiences, scrollytelling, sound these are all available to you. The form is the last decision, and it is entirely yours. What matters is that you've asked a good question, done the analysis, and synthesized what you found. After that, the visual is genuinely up to you.
 :::
 
 ## {.textcenter}
@@ -828,7 +828,7 @@ The tool is not the point. The question is the point. Pick whatever gets you to 
 :::
 
 ::: notes
-The Pudding has a series of tutorials where they recreate their analyses entirely in Excel — no code. These are excellent. They show you what those four operations look like on real data from projects you've probably already read.
+The Pudding has a series of tutorials where they recreate their analyses entirely in Excel no code. These are excellent. They show you what those four operations look like on real data from projects you've probably already read.
 :::
 
 ## Consume a lot. {background-color="#242933"}
@@ -849,7 +849,7 @@ Available as a [feed here](https://subs.aman.bh/i/?a=normal&get=c_6)
 ::::
 
 ::: notes
-On a daily basis I read a lot, specifically so I can pick up what other people are doing and bring it into my own work. I'll send the slide deck after this — it has a list of people to follow and a feed you can subscribe to.
+On a daily basis I read a lot, specifically so I can pick up what other people are doing and bring it into my own work. I'll send the slide deck after this it has a list of people to follow and a feed you can subscribe to.
 :::
 
 ## Tinker constantly {background-color="#FFFFFF"}
@@ -860,11 +860,11 @@ On a daily basis I read a lot, specifically so I can pick up what other people a
 ![]( attachments/2026-02-25-23-23-48.png)
 
 ::: notes
-And then Tidy Tuesday — it's a weekly shared dataset, everyone is working on the same data, and you can see what everybody else made from it. Small, consistent work like this compounds. You don't have to make something great every week. You just have to make something. It's genuinely the most useful practice I know of.
+And then Tidy Tuesday it's a weekly shared dataset, everyone is working on the same data, and you can see what everybody else made from it. Small, consistent work like this compounds. You don't have to make something great every week. You just have to make something. It's genuinely the most useful practice I know of.
 :::
 
 ::: notes
-I want to end with this. There is no specific kind of data person, and no specific kind of output that counts. As long as you ask a good question, do some analysis, and synthesize what you found — how you show it is yours to decide. The form is the last decision.
+I want to end with this. There is no specific kind of data person, and no specific kind of output that counts. As long as you ask a good question, do some analysis, and synthesize what you found how you show it is yours to decide. The form is the last decision.
 :::
 
 ---
