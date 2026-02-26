@@ -23,7 +23,7 @@ data storytelling
 :::
 
 ::: footer
-[Presented as a guest talk at Purdue University, CGT 270]{style="color:white;"}
+[Presented as a guest talk at Purdue University, CGT 270]{style="color:white !important;"}
 :::
 
 ---
