@@ -263,6 +263,9 @@ second kind of [story]{.orange}, a lot of
 
 possibilities open up.
 :::
+::: footer
+[so, what? By Cole Nussbaumer Knaflic](www.storytellingwithdata.com/blog/2017/3/22/so-what)
+:::
 
 ::: notes
 When you start thinking in lowercase stories, two things happen. First, a lot more possibilities open up because the form is your choice. Second, it actually feels attainable. I can make something like Spotify Wrapped. I might not be able to make The Pudding just yet, but I can curate something intentional and specific.
@@ -344,6 +347,10 @@ This is more recent where I was analyzing how repetitive each Taylor Swift album
 :::
 
 What do I want you to take away?
+
+::: footer
+[so, what? By Cole Nussbaumer Knaflic](www.storytellingwithdata.com/blog/2017/3/22/so-what)
+:::
 
 ::: notes
 "Okay, and?" is the most useful question you can ask of your own work. If you can't answer it with a single clear sentence — what is the point of this, what do you want me to take away — you have an exploration, not an explanation. The synthesis is converting one into the other.
