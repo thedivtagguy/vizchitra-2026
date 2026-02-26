@@ -22,8 +22,8 @@ data storytelling
 [in lowercase]{.flow}
 :::
 
-::: notes
-Thank you for having me. My name is Aman, it rhymes with "uh-mun." I'll be talking about what 'data storytelling' means to me and what it looks like in my process.
+::: footer
+Presented as a guest talk at Purdue University, CGT 270
 :::
 
 ---
