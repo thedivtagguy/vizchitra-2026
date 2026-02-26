@@ -93,6 +93,7 @@ But what really makes me feel alive is when I have no brief, no client, no deadl
 Are namesake candidates able to confuse voters in Indian elections?
 
 ![]( attachments/2026-02-24-14-46-19.png){.nostretch width="60%" .center}
+
 :::
 
 ::: notes
@@ -137,7 +138,7 @@ But anyway, this is the stuff that I'm doing _now_.
 
 Googling for 'data visualization' is telling...
 
-![]( attachments/![]( attachments/2026-02-24-16-48-52.png).png)
+![](attachments/2026-02-24-16-48-52.png)
 
 ::: notes
 When I was in college and just getting into this, I learnt more or less the same process that you see here: collect data, prepare it, clean it, visualize it, put it in a report or a dashboard. This is not wrong and at that stage, even learning how to make charts is intimidating. This gets you making those quickly.
