@@ -14,6 +14,8 @@ format:
     height: 900
     center: true
     include-in-header: header.html
+    embed-resources: true
+
 execute:
   echo: false
   warning: false
