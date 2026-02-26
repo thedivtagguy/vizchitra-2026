@@ -2,7 +2,6 @@
 pagetitle: data storytelling in lowercase
 title: "data storytelling in lowercase"
 description: "What I mean by data storytelling"
-author: "Aman Bhargava"
 site-url: "https://aman.bh/talks/purdue-2026/"
 image: "assets/sharecard.jpg"
 image-alt: "Cover slide for data storytelling in lowercase presentation"
