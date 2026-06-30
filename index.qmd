@@ -1,5 +1,5 @@
 ---
-pagetitle: data storytelling in lowercase
+pagetitle: The Dashboards of Our Discontent
 author: "Aman Bhargava"
 description: "What I mean by data storytelling"
 site-url: "https://aman.bh/talks/purdue-2026/"
@@ -27,16 +27,49 @@ revealjs-plugins:
 ## {.title .center}
 
 ::: r-fit-text
-data storytelling
+The Dashboards of
 
-[in lowercase]{.flow}
+[Our Discontents]{.flow}
 :::
 
 ::: footer
-[Presented as a guest talk at Purdue University, CGT 270]{style="color:white !important; opacity: 0.5;"}
+[Presented at Vizchitra, 2026]{style="color:white !important; opacity: 0.5;"}
 :::
 
 ---
+
+##
+
+Project Gemini
+Mission Control, NASA
+
+**Somewhat unattainable**.
+
+![](attachments/nasa.jpg){width="90%"}
+
+##
+
+Dholera City Control Room, Gujarat.
+
+
+**Somewhat attainable**.
+
+![](attachments/dholera.png){width="90%"}
+
+##
+
+Don't want to go to Gujarat? Here's Indore.
+
+
+![](attachments/indore.jpg){width="80%"}
+
+
+
+## {background-image="attachments/iccc.jpg" background-size="50%"}
+
+
+
+
 
 ## { .center}
 
@@ -44,9 +77,6 @@ I am a [designer]{.red}, developer, [indie data-journalist]{.orange}.
 
 I sit in the middle of all three because I can't give up any of them.
 
-. . .
-
-![](attachments/2026-02-24-00-50-12.png)
 
 ::: notes
 So I'm three things. I'm a designer because that's what I studied. I'm a developer because that's my hobby and also my day job. And I call myself an indie data journalist, which is where my real passion lives.
@@ -574,23 +604,6 @@ And you can chain them. Filter for a subset, group it into categories, count wit
 ::: {.column width="60%" .fragment .center}
 <br/>
 <br/>
-```{r}
-library(tidyverse)
-library(knitr)
-library(tidyverse)
-
-tuesdata <- tidytuesdayR::tt_load('2021-07-13')
-
-scoobydoo <- tuesdata$scoobydoo
-scoobydoo %>%
-  mutate(total_episodes = n()) %>%
-  filter(caught_daphnie == "TRUE") %>%
-  summarize(
-    "caught_by_daphne" = n(),
-    "total_episodes" = first(total_episodes)
-  ) %>%
-  kable()
-```
 
 :::
 ::::

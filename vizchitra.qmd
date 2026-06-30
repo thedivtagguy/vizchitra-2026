@@ -1,0 +1,528 @@
+---
+pagetitle: The Dashboards of Our Discontents
+author: "Aman Bhargava"
+description: "Against the terminal public-data dashboard"
+image: "attachments/odp/slide61-2.png"
+open-graph: true
+
+format:
+  revealjs:
+    theme: [default, style.scss]
+    width: 1600
+    height: 900
+    center: true
+    embed-resources: true
+
+execute:
+  echo: false
+  warning: false
+  message: false
+revealjs-plugins:
+  - pointer
+---
+
+## {.title .center}
+
+::: r-fit-text
+The dashboards of
+
+[our discontents]{.flow}
+:::
+
+::: footer
+[Against the terminal public-data dashboard · Vizchitra, 2026]{style="opacity:0.6;"}
+:::
+
+
+<!-- slide 2 -->
+## Project Gemini Mission Control Center, NASA
+
+Somewhat unattainable.
+
+![](attachments/odp/slide02-1.png){width="70%"}
+
+
+<!-- slide 3 -->
+## Dholera City Control Room.
+
+Somewhat attainable.
+
+![](attachments/odp/slide03-1.png){width="70%"}
+
+
+<!-- slide 4 -->
+## {background-image="attachments/odp/slide04-1.jpg" background-size="contain"}
+
+
+<!-- slide 5 -->
+## We get donuts!
+
+:::{.textcenter}
+![](attachments/odp/slide05-1.png){width="56%"}
+![](attachments/odp/slide05-2.png){width="60%"}
+:::
+
+
+<!-- slide 6 -->
+## We get small
+
+Big Ass Numbers!
+
+![](attachments/odp/slide06-1.png){width="90%"}
+
+
+<!-- slide 7 -->
+## We get KPIs!
+
+![](attachments/odp/slide07-1.png){width="90%"}
+
+
+<!-- slide 8 -->
+## {.textcenter}
+
+::: r-fit-text
+This is not an aesthetics problem, but one of misunderstood needs
+:::
+
+
+<!-- slide 9 -->
+## {background-image="attachments/odp/slide09-1.png" background-size="contain"}
+
+
+<!-- slide 10 -->
+## {.textcenter}
+
+::: r-fit-text
+How did we get here?
+
+Dashboards
+
+let you cut ribbons
+:::
+
+
+<!-- slide 11 -->
+## {.textcenter}
+
+:::{.textcenter}
+![](attachments/odp/slide11-1.png){width="92%"}
+
+![](attachments/odp/slide11-2.png){width="92%"}
+
+:::
+
+
+<!-- slide 12 -->
+## How did we get here?
+
+Dashboards are ribbon-cuttable.
+
+Nobody’s taking pictures of a dataset release
+
+![](attachments/odp/slide12-1.png){width="75%"}
+
+
+<!-- slide 13 -->
+## One every 7 days!
+
+![](attachments/odp/slide13-1.png){width="75%"}
+
+
+<!-- slide 14 -->
+## {.textcenter}
+
+::: r-fit-text
+How did we get here?
+
+Dashboards are
+
+the standard.
+:::
+
+
+<!-- slide 15 -->
+## This is a “BI” dashboard
+
+![](attachments/odp/slide15-1.png){width="90%"}
+
+
+<!-- slide 16 -->
+## {.textcenter}
+
+::: r-fit-text
+BI Audience
+
+Known person,
+
+known question,
+
+and authority to act
+:::
+
+
+<!-- slide 17 -->
+## {.textcenter}
+
+::: r-fit-text
+Who is the public?
+
+A journalist?
+
+A scholar?
+
+A curious teenager?
+
+A vibe-coder?
+:::
+
+
+<!-- slide 18 -->
+## {.textcenter}
+
+::: r-fit-text
+BI Audience
+
+Known person,
+
+known question,
+
+and authority to act
+
+Public
+
+Strangers,
+
+no known questions,
+
+cannot take action
+:::
+
+
+<!-- slide 19 -->
+## {.textcenter}
+
+::: r-fit-text
+Their only possible action is more work with the data
+
+Their action is a story, a paper, a campaign, a tool
+:::
+
+
+<!-- slide 20 -->
+## {.textcenter}
+
+::: r-fit-text
+As long as the dashboard is the entry point, it will preemptively close what questions can be asked
+:::
+
+
+<!-- slide 21 -->
+## {.textcenter}
+
+::: r-fit-text
+What can generous infrastructure look like?
+:::
+
+
+<!-- slide 22 -->
+## {background-image="attachments/odp/slide22-1.png" background-size="contain"}
+
+
+<!-- slide 23 -->
+## {.textcenter}
+
+:::{.textcenter}
+![](attachments/odp/slide23-1.png){width="50%"}
+
+![](attachments/odp/slide23-2.png){width="51%"}
+
+:::
+
+
+<!-- slide 24 -->
+## State censorship is recorded in certificates near the toilet in my nearest theater
+
+![](attachments/odp/slide24-1.png){width="42%"}
+
+
+<!-- slide 25 -->
+## {background-image="attachments/odp/slide25-1.png" background-size="contain"}
+
+
+<!-- slide 26 -->
+## {background-image="attachments/odp/slide26-1.png" background-size="contain"}
+
+
+<!-- slide 27 -->
+## The Government had other plans in store
+
+![](attachments/odp/slide27-1.png){width="51%"}
+
+
+<!-- slide 28 -->
+## {background-image="attachments/odp/slide28-1.png" background-size="contain"}
+
+
+<!-- slide 29 -->
+## {background-image="attachments/odp/slide29-1.png" background-size="contain"}
+
+
+<!-- slide 30 -->
+## Horses? Maps? Shah Rukh Khan?
+
+![](attachments/odp/slide30-1.png){width="79%"}
+
+
+<!-- slide 31 -->
+## Why would you not want your users to share things? Everything is linkable!
+
+https://cbfc.watch/film/sinners-2025
+
+https://cbfc.watch/browse/actors/fahadh-faasil
+
+https://cbfc.watch/browse/content/religious
+
+https://cbfc.watch/search?q=maps+language=English
+
+Permalinks!
+
+![](attachments/odp/slide31-1.png){width="66%"}
+
+
+<!-- slide 32 -->
+## {background-image="attachments/odp/slide32-1.png" background-size="contain"}
+
+
+<!-- slide 33 -->
+## {.textcenter}
+
+:::{.textcenter}
+![](attachments/odp/slide33-1.png){width="67%"}
+
+![](attachments/odp/slide33-2.png){width="92%"}
+
+:::
+
+
+<!-- slide 34 -->
+## Archived for posterity. It’s not about just US, of course
+
+![](attachments/odp/slide34-1.png){width="92%"}
+
+
+<!-- slide 35 -->
+## Confused about the data? I’ll show you!
+
+![](attachments/odp/slide35-1.png){width="90%"}
+
+
+<!-- slide 36 -->
+## {.textcenter}
+
+:::{.textcenter}
+![](attachments/odp/slide36-1.png){width="61%"}
+
+![](attachments/odp/slide36-2.png){width="68%"}
+
+![](attachments/odp/slide36-3.png){width="68%"}
+
+:::
+
+
+<!-- slide 37 -->
+## {background-image="attachments/odp/slide37-1.png" background-size="contain"}
+
+
+<!-- slide 38 -->
+## {background-image="attachments/odp/slide38-1.png" background-size="contain"}
+
+
+<!-- slide 39 -->
+## Charts can be vehicles of exciting, deeper data literacy.
+
+As long as they don’t stop there.
+
+![](attachments/odp/slide39-1.png){width="59%"}
+
+
+<!-- slide 40 -->
+## {.textcenter}
+
+:::{.textcenter}
+![](attachments/odp/slide40-1.png){width="80%"}
+
+![](attachments/odp/slide40-2.png){width="73%"}
+
+:::
+
+
+<!-- slide 41 -->
+## Essentially free to run, and still has better uptime than most government websites.
+
+![](attachments/odp/slide41-1.png){width="56%"}
+
+
+<!-- slide 42 -->
+## {.textcenter}
+
+::: r-fit-text
+There is more than one way to public some data.
+:::
+
+
+<!-- slide 43 -->
+## {.textcenter}
+
+::: r-fit-text
+Who spends more time cleaning up after meals?
+:::
+
+
+<!-- slide 44 -->
+## {background-image="attachments/odp/slide44-1.png" background-size="contain"}
+
+
+<!-- slide 45 -->
+## {background-image="attachments/odp/slide45-1.png" background-size="contain"}
+
+
+<!-- slide 46 -->
+## Spread out across multiple files and documents
+
+![](attachments/odp/slide46-1.png){width="82%"}
+
+
+<!-- slide 47 -->
+## Do the work and put it into one usable file
+
+![](attachments/odp/slide47-1.png){width="82%"}
+
+
+<!-- slide 48 -->
+## {background-image="attachments/odp/slide48-1.png" background-size="contain"}
+
+
+<!-- slide 49 -->
+## Run complex queries right in your browser (no server!)
+
+![](attachments/odp/slide49-1.png){width="92%"}
+
+
+<!-- slide 50 -->
+## Who spends more time cleaning up after meals?
+
+:::{.textcenter}
+![](attachments/odp/slide50-1.png){width="30%"}
+![](attachments/odp/slide50-2.png){width="30%"}
+:::
+
+
+<!-- slide 51 -->
+## Share your analysis
+
+with anyone with a link
+
+![](attachments/odp/slide51-1.png){width="81%"}
+
+
+<!-- slide 52 -->
+## {background-image="attachments/odp/slide52-1.png" background-size="contain"}
+
+
+<!-- slide 53 -->
+## {background-image="attachments/odp/slide53-1.png" background-size="contain"}
+
+
+<!-- slide 54 -->
+## {.textcenter}
+
+::: r-fit-text
+What can you do for the public?
+:::
+
+
+<!-- slide 55 -->
+## {.textcenter}
+
+::: r-fit-text
+A BI dashboard gets
+
+users, trust, distribution by default.
+
+With a public data interface,
+
+You get none.
+:::
+
+
+<!-- slide 56 -->
+## Build so things can travel outward
+
+Maximize the surface area for shareability.
+
+dashboard.gov.in/?filters=location
+
+cbfc.watch/film/animal-2023
+
+app.powerbi.com/view?r=eyJrIjoiYjU3NDc3...
+
+:::{.textcenter}
+![](attachments/odp/slide56-1.png){width="33%"}
+![](attachments/odp/slide56-2.png){width="30%"}
+![](attachments/odp/slide56-3.png){width="33%"}
+:::
+
+
+<!-- slide 57 -->
+## Design for low friction, high delight
+
+No login, no API key, and loads on a phone.
+
+The barriers are already high; your interface cannot add a single one. And good lookin’!
+
+![](attachments/odp/slide57-1.png){width="90%"}
+
+
+<!-- slide 58 -->
+## Charts are only an advertisement
+
+Present your view, then let people explore the rest.
+
+![](attachments/odp/slide58-1.png){width="33%"}
+
+
+<!-- slide 59 -->
+## {.textcenter}
+
+::: r-fit-text
+Assume you
+
+will lose interest
+
+A public data interface outlives the individual interest of the person building it.
+:::
+
+
+<!-- slide 60 -->
+## {.textcenter}
+
+::: r-fit-text
+Build so things can travel outward
+
+Design for low friction, high delight
+
+Charts cannot be the end point
+
+Build for the day you lose interest
+:::
+
+
+<!-- slide 61 -->
+## Let us build things that start something, not things where the reader stops
+
+:::{.textcenter}
+![](attachments/odp/slide61-1.png){width="60%"}
+![](attachments/odp/slide61-2.png){width="60%"}
+:::
+
+
