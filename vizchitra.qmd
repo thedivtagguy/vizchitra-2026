@@ -11,6 +11,7 @@ format:
     width: 1600
     height: 900
     center: true
+    auto-stretch: false
     embed-resources: true
 
 execute:
@@ -21,492 +22,435 @@ revealjs-plugins:
   - pointer
 ---
 
-## {.title .center}
+## {.center .textcenter}
 
 ::: r-fit-text
-The dashboards of
-
-[our discontents]{.flow}
+The dashboards of<br>our discontents
 :::
+
 
 ::: footer
-[Against the terminal public-data dashboard · Vizchitra, 2026]{style="opacity:0.6;"}
+[Vizchitra, 2026]{style="opacity:0.5;"}
 :::
 
 
-<!-- slide 2 -->
-## Project Gemini Mission Control Center, NASA
+##
 
-Somewhat unattainable.
-
-![](attachments/odp/slide02-1.png){width="70%"}
-
-
-<!-- slide 3 -->
-## Dholera City Control Room.
-
-Somewhat attainable.
-
-![](attachments/odp/slide03-1.png){width="70%"}
-
-
-<!-- slide 4 -->
-## {background-image="attachments/odp/slide04-1.jpg" background-size="contain"}
-
-
-<!-- slide 5 -->
-## We get donuts!
-
-:::{.textcenter}
-![](attachments/odp/slide05-1.png){width="56%"}
-![](attachments/odp/slide05-2.png){width="60%"}
+:::: {.columns}
+::: {.column .colmid width="38%"}
+**Project Gemini<br>Mission Control Center, NASA**
+<br><br>
+**Somewhat unattainable.**
 :::
+::: {.column width="62%"}
+![](attachments/odp/slide02-1.png){.bleed}
+:::
+::::
 
 
-<!-- slide 6 -->
-## We get small
+##
 
-Big Ass Numbers!
+:::: {.columns}
+::: {.column .colmid width="38%"}
+**Dholera City<br>Control Room.**
+<br><br>
+**Somewhat attainable.**
+:::
+::: {.column width="62%"}
+![](attachments/odp/slide03-1.png){.bleed}
+:::
+::::
 
-![](attachments/odp/slide06-1.png){width="90%"}
+
+## {background-image="attachments/odp/slide04-1.png" background-size="80%"}
+## {background-image="attachments/odp/looking-in.png" background-size="80%"}
+
+## {background-image="attachments/odp/slide07-1.png" background-size="contain"}
+
+<div class="callout-box" style="position:absolute; top:33%; left:30%; font-size:1.8em;">We get KPIs!</div>
 
 
-<!-- slide 7 -->
-## We get KPIs!
-
-![](attachments/odp/slide07-1.png){width="90%"}
-
-
-<!-- slide 8 -->
-## {.textcenter}
+## {.center .textcenter}
 
 ::: r-fit-text
-This is not an aesthetics problem, but one of misunderstood needs
+This is not an aesthetics problem,<br>but one of misunderstood needs
 :::
 
+<!-- Diagram Chasing -->
+## {background-image="attachments/odp/slide09-1.png" background-size="70%"}
 
-<!-- slide 9 -->
-## {background-image="attachments/odp/slide09-1.png" background-size="contain"}
 
+## {.center .textcenter}
 
-<!-- slide 10 -->
-## {.textcenter}
-
-::: r-fit-text
 How did we get here?
 
-Dashboards
+::: {.r-fit-text .fragment}
+Dashboards let you cut ribbons
+:::
 
-let you cut ribbons
+:::notes
+Any problem can be solved by the creation of a new dashboard, which gives the appearance of activity without the danger of results.
 :::
 
 
-<!-- slide 11 -->
-## {.textcenter}
+## {background-image="attachments/odp/ribbon.png" background-size="80%"}
 
-:::{.textcenter}
-![](attachments/odp/slide11-1.png){width="92%"}
 
-![](attachments/odp/slide11-2.png){width="92%"}
+##
 
+:::: {.columns}
+::: {.column .colmid width="28%" }
+**Nobody's taking pictures of a dataset being released**
 :::
+::: {.column width="72%"}
+![](attachments/odp/slide12-1.png){.bleed}
+:::
+::::
 
 
-<!-- slide 12 -->
-## How did we get here?
-
-Dashboards are ribbon-cuttable.
-
-Nobody’s taking pictures of a dataset release
-
-![](attachments/odp/slide12-1.png){width="75%"}
+## {background-image="attachments/odp/trend_launches.png" background-size="90%"}
 
 
-<!-- slide 13 -->
-## One every 7 days!
-
-![](attachments/odp/slide13-1.png){width="75%"}
 
 
-<!-- slide 14 -->
-## {.textcenter}
+<!-- slide 14 — kicker + statement -->
+## {.center .textcenter}
 
-::: r-fit-text
 How did we get here?
 
-Dashboards are
-
-the standard.
+::: r-fit-text
+Dashboards are<br>*the* familiar pattern.
 :::
 
 
-<!-- slide 15 -->
-## This is a “BI” dashboard
+<!-- slide 15 — full-bleed dashboard + overlay title -->
+## {background-image="attachments/odp/dashboard.png" background-size="contain" background-color="#1A202C"}
 
-![](attachments/odp/slide15-1.png){width="90%"}
+[Line go up: I happy 😄]{.overlay-title .fragment style="font-size:2.4em;  background-color: #252F3F"}
+[Line go down: I sad 😔]{.overlay-title .fragment style="font-size:2.4em;  background-color: #252F3F"}
 
 
-<!-- slide 16 -->
-## {.textcenter}
+<!-- slide 16 — left-aligned text block -->
+## {.center .textcenter}
+
+::: {.bi-audience}
+**BI Audience**
+
+Known person,<br>known question,<br>and authority to act
+:::
+
+
+<!-- slide 17 — scattered words -->
+## {background-image="attachments/odp/who.png" background-size="80%"}
+
+<!-- slide 18 — comparison: muted vs active -->
+##
+
+:::: {.columns .left }
+::: {.column .bi-audience .colmid width="50%"}
+[**BI Audience**]{.muted}
+
+[Known person,<br>known question,<br>and authority to act]{.muted}
+:::
+::: {.column .bi-audience .colmid .right width="50%"}
+**Public**
+
+Strangers,<br>no known questions,<br>cannot take action
+:::
+::::
+
+
+<!-- slide 19 — statement + follow-on -->
+## {.center .textcenter}
 
 ::: r-fit-text
-BI Audience
-
-Known person,
-
-known question,
-
-and authority to act
+**Their only possible action<br>is more work with the data**
 :::
 
+A story, a paper, a campaign, a tool
 
-<!-- slide 17 -->
-## {.textcenter}
+
+<!-- slide 20 — centered statement -->
+## {.center .textcenter}
 
 ::: r-fit-text
-Who is the public?
-
-A journalist?
-
-A scholar?
-
-A curious teenager?
-
-A vibe-coder?
+Dashboards answer the <mark>known unknowns</mark>,<br>but close questions that can be asked  <br> about <mark>unknown unknowns</mark>
 :::
 
+:::notes
+When you publish only a dashboard for public data, you're imposing your worldview on everyone else. You're saying "these are the only questions worth asking" and "this is the only way to look at it." dashboards are for known unknowns, but raw logs/querying are for unknown unknowns.
+:::
 
-<!-- slide 18 -->
-## {.textcenter}
+<!-- slide 21 — centered statement -->
+## {.center .textcenter}
 
 ::: r-fit-text
-BI Audience
-
-Known person,
-
-known question,
-
-and authority to act
-
-Public
-
-Strangers,
-
-no known questions,
-
-cannot take action
+What can generous<br>infrastructure look like?
 :::
 
-
-<!-- slide 19 -->
-## {.textcenter}
-
-::: r-fit-text
-Their only possible action is more work with the data
-
-Their action is a story, a paper, a campaign, a tool
-:::
+[Spoiler: There's a Magic Solution]{.rainbow}
 
 
-<!-- slide 20 -->
-## {.textcenter}
 
-::: r-fit-text
-As long as the dashboard is the entry point, it will preemptively close what questions can be asked
-:::
-
-
-<!-- slide 21 -->
-## {.textcenter}
-
-::: r-fit-text
-What can generous infrastructure look like?
-:::
-
-
-<!-- slide 22 -->
+<!-- slide 22 — centered image -->
 ## {background-image="attachments/odp/slide22-1.png" background-size="contain"}
 
 
-<!-- slide 23 -->
-## {.textcenter}
+<!-- slide 23 — article + face overlay -->
+## {background-image="attachments/odp/slide23-1.png" background-size="contain"}
 
-:::{.textcenter}
-![](attachments/odp/slide23-1.png){width="50%"}
+<img src="attachments/odp/slide23-2.png" class="stack-img" style="top:52%; left:54%; width:13%;">
 
-![](attachments/odp/slide23-2.png){width="51%"}
 
+<!-- slide 24 — image-bleed left / text right -->
+##
+
+:::: {.columns}
+::: {.column width="50%"}
+![](attachments/odp/slide24-1.png){.bleed}
 :::
+::: {.column .colmid width="50%"}
+**State censorship is recorded<br>in certificates near the toilet<br>in my nearest theater**
+:::
+::::
 
 
-<!-- slide 24 -->
-## State censorship is recorded in certificates near the toilet in my nearest theater
-
-![](attachments/odp/slide24-1.png){width="42%"}
-
-
-<!-- slide 25 -->
+<!-- slide 25 — centered image -->
 ## {background-image="attachments/odp/slide25-1.png" background-size="contain"}
 
 
-<!-- slide 26 -->
+<!-- slide 26 — centered image -->
 ## {background-image="attachments/odp/slide26-1.png" background-size="contain"}
 
 
-<!-- slide 27 -->
-## The Government had other plans in store
+<!-- slide 27 — text left / image right -->
+##
 
-![](attachments/odp/slide27-1.png){width="51%"}
+:::: {.columns}
+::: {.column .colmid width="40%"}
+**The Government had<br>other plans in store**
+:::
+::: {.column width="60%"}
+![](attachments/odp/slide27-1.png){.bleed .contain}
+:::
+::::
 
 
-<!-- slide 28 -->
-## {background-image="attachments/odp/slide28-1.png" background-size="contain"}
+<!-- slide 28 — full-bleed dark -->
+## {background-image="attachments/odp/slide28-1.png" background-size="contain" background-color="#0d1117"}
 
 
-<!-- slide 29 -->
+<!-- slide 29 — full-bleed -->
 ## {background-image="attachments/odp/slide29-1.png" background-size="contain"}
 
 
-<!-- slide 30 -->
-## Horses? Maps? Shah Rukh Khan?
+<!-- slide 30 — kicker + image below -->
+## {.textcenter}
 
-![](attachments/odp/slide30-1.png){width="79%"}
+[Horses? Maps? Shah Rukh Khan?]{style="font-size:1.3em; font-weight:800;"}
 
-
-<!-- slide 31 -->
-## Why would you not want your users to share things? Everything is linkable!
-
-https://cbfc.watch/film/sinners-2025
-
-https://cbfc.watch/browse/actors/fahadh-faasil
-
-https://cbfc.watch/browse/content/religious
-
-https://cbfc.watch/search?q=maps+language=English
-
-Permalinks!
-
-![](attachments/odp/slide31-1.png){width="66%"}
+![](attachments/odp/slide30-1.png){width="78%"}
 
 
-<!-- slide 32 -->
+<!-- slide 31 — heading + URL list + chart -->
+## {.textcenter}
+
+[Permalinks!]{style="font-size:1.4em; font-weight:800;"}
+
+Why would you *not* want your users to share things? Everything is linkable!
+
+::: {.urls style="display:inline-block; text-align:left;"}
+- https://cbfc.watch/film/sinners-2025
+- https://cbfc.watch/browse/actors/fahadh-faasil
+- https://cbfc.watch/browse/content/religious
+- https://cbfc.watch/search?q=maps+language=English
+:::
+
+![](attachments/odp/slide31-1.png){width="55%"}
+
+
+<!-- slide 32 — full-bleed -->
 ## {background-image="attachments/odp/slide32-1.png" background-size="contain"}
 
 
-<!-- slide 33 -->
-## {.textcenter}
+<!-- slide 33 — full-bleed chat + caption strip -->
+## {background-image="attachments/odp/slide33-1.png" background-size="cover" background-color="#0d1117"}
 
-:::{.textcenter}
-![](attachments/odp/slide33-1.png){width="67%"}
-
-![](attachments/odp/slide33-2.png){width="92%"}
-
-:::
+<img src="attachments/odp/slide33-2.png" class="stack-img" style="bottom:6%; left:0; width:100%;">
 
 
-<!-- slide 34 -->
-## Archived for posterity. It’s not about just US, of course
-
-![](attachments/odp/slide34-1.png){width="92%"}
 
 
-<!-- slide 35 -->
-## Confused about the data? I’ll show you!
+<!-- slide 35 — image right / text bottom-left -->
+## {background-image="attachments/odp/slide35-1.png" background-size="contain" background-position="right"}
 
-![](attachments/odp/slide35-1.png){width="90%"}
-
-
-<!-- slide 36 -->
-## {.textcenter}
-
-:::{.textcenter}
-![](attachments/odp/slide36-1.png){width="61%"}
-
-![](attachments/odp/slide36-2.png){width="68%"}
-
-![](attachments/odp/slide36-3.png){width="68%"}
-
-:::
+<div style="position:absolute; bottom:16%; left:3%; max-width:28%; font-size:1.4em; font-weight:800;">Confused about the data? I'll show you!</div>
 
 
-<!-- slide 37 -->
-## {background-image="attachments/odp/slide37-1.png" background-size="contain"}
+<!-- slide 36 — article collage -->
+## {background-color="#ffffff"}
+
+<img src="attachments/odp/slide36-1.png" class="stack-img" style="top:6%; left:2%; width:56%;">
+<img src="attachments/odp/slide36-2.png" class="stack-img" style="top:30%; right:1%; width:52%;">
+<img src="attachments/odp/slide36-3.png" class="stack-img" style="bottom:5%; left:4%; width:54%;">
 
 
-<!-- slide 38 -->
-## {background-image="attachments/odp/slide38-1.png" background-size="contain"}
+
+<!-- slide 40 — contribute page + chat overlay -->
+## {background-image="attachments/odp/slide40-1.png" background-size="contain"}
+
+<img src="attachments/odp/slide40-2.png" class="stack-img" style="top:28%; left:12%; width:72%;">
 
 
-<!-- slide 39 -->
-## Charts can be vehicles of exciting, deeper data literacy.
-
-As long as they don’t stop there.
-
-![](attachments/odp/slide39-1.png){width="59%"}
-
-
-<!-- slide 40 -->
-## {.textcenter}
-
-:::{.textcenter}
-![](attachments/odp/slide40-1.png){width="80%"}
-
-![](attachments/odp/slide40-2.png){width="73%"}
-
-:::
-
-
-<!-- slide 41 -->
-## Essentially free to run, and still has better uptime than most government websites.
-
-![](attachments/odp/slide41-1.png){width="56%"}
-
-
-<!-- slide 42 -->
-## {.textcenter}
+## {.center .textcenter}
 
 ::: r-fit-text
-There is more than one way to public some data.
+There is more than one<br>way to public some data.
 :::
 
 
-<!-- slide 43 -->
-## {.textcenter}
+<!-- slide 43 — centered statement -->
+## {.center .textcenter}
 
 ::: r-fit-text
-Who spends more time cleaning up after meals?
+Who spends more time<br>cleaning up after meals?
 :::
 
 
-<!-- slide 44 -->
+<!-- slide 44 — full-bleed -->
 ## {background-image="attachments/odp/slide44-1.png" background-size="contain"}
 
 
-<!-- slide 45 -->
+<!-- slide 45 — full-bleed -->
 ## {background-image="attachments/odp/slide45-1.png" background-size="contain"}
 
 
-<!-- slide 46 -->
-## Spread out across multiple files and documents
+<!-- slide 46 — table image + caption below -->
+## {.textcenter}
 
-![](attachments/odp/slide46-1.png){width="82%"}
+![](attachments/odp/slide46-1.png){width="64%"}
 
-
-<!-- slide 47 -->
-## Do the work and put it into one usable file
-
-![](attachments/odp/slide47-1.png){width="82%"}
+**Spread out across multiple<br>files and documents**
 
 
-<!-- slide 48 -->
-## {background-image="attachments/odp/slide48-1.png" background-size="contain"}
+<!-- slide 47 — table image + caption below -->
+## {.textcenter}
+
+![](attachments/odp/slide47-1.png){width="64%"}
+
+**Do the work and put it into<br>one usable file**
 
 
-<!-- slide 49 -->
-## Run complex queries right in your browser (no server!)
+<!-- slide 49 — image + caption below -->
+## {.textcenter}
 
-![](attachments/odp/slide49-1.png){width="92%"}
+![](attachments/odp/slide49-1.png){width="74%"}
+
+**Run complex queries right in<br>your browser (no server!)**
 
 
-<!-- slide 50 -->
-## Who spends more time cleaning up after meals?
+<!-- slide 50 — heading + two images -->
+## {.textcenter}
 
-:::{.textcenter}
-![](attachments/odp/slide50-1.png){width="30%"}
-![](attachments/odp/slide50-2.png){width="30%"}
+**Who spends more time<br>cleaning up after meals?**
+
+:::: {.columns}
+::: {.column width="50%" .textcenter}
+![](attachments/odp/slide50-1.png){width="84%"}
 :::
+::: {.column width="50%" .textcenter}
+![](attachments/odp/slide50-2.png){width="84%"}
+:::
+::::
 
 
-<!-- slide 51 -->
-## Share your analysis
+<!-- slide 51 — heading + image below -->
+## {.textcenter}
 
-with anyone with a link
+**Share your analysis<br>with anyone with a link**
 
-![](attachments/odp/slide51-1.png){width="81%"}
-
-
-<!-- slide 52 -->
-## {background-image="attachments/odp/slide52-1.png" background-size="contain"}
+![](attachments/odp/slide51-1.png){width="84%"}
 
 
-<!-- slide 53 -->
+<!-- slide 52 — full-bleed dark -->
+## {background-image="attachments/odp/slide52-1.png" background-size="contain" background-color="#000000"}
+
+
+<!-- slide 53 — full-bleed -->
 ## {background-image="attachments/odp/slide53-1.png" background-size="contain"}
 
 
-<!-- slide 54 -->
-## {.textcenter}
+<!-- slide 54 — centered statement -->
+## {.center .textcenter}
 
 ::: r-fit-text
-What can you do for the public?
+What can you do<br>for the public?
 :::
 
 
-<!-- slide 55 -->
-## {.textcenter}
+<!-- slide 55 — two-tier statement -->
+## {.center .textcenter}
 
-::: r-fit-text
-A BI dashboard gets
+A BI dashboard gets<br>**users, trust, distribution by default.**
 
-users, trust, distribution by default.
+<br>
 
-With a public data interface,
-
-You get none.
-:::
+With a public data interface,<br>**You get none.**
 
 
-<!-- slide 56 -->
-## Build so things can travel outward
+<!-- slide 56 — takeaway 1 (composed) -->
+## {.center .textcenter background-color="#ffffff"}
 
-Maximize the surface area for shareability.
-
+::: {.urls style="position:absolute; top:4%; left:3%; text-align:left; font-size:0.6em;"}
 dashboard.gov.in/?filters=location
 
 cbfc.watch/film/animal-2023
 
 app.powerbi.com/view?r=eyJrIjoiYjU3NDc3...
-
-:::{.textcenter}
-![](attachments/odp/slide56-1.png){width="33%"}
-![](attachments/odp/slide56-2.png){width="30%"}
-![](attachments/odp/slide56-3.png){width="33%"}
 :::
-
-
-<!-- slide 57 -->
-## Design for low friction, high delight
-
-No login, no API key, and loads on a phone.
-
-The barriers are already high; your interface cannot add a single one. And good lookin’!
-
-![](attachments/odp/slide57-1.png){width="90%"}
-
-
-<!-- slide 58 -->
-## Charts are only an advertisement
-
-Present your view, then let people explore the rest.
-
-![](attachments/odp/slide58-1.png){width="33%"}
-
-
-<!-- slide 59 -->
-## {.textcenter}
+<img src="attachments/odp/slide56-1.png" class="stack-img" style="top:5%; right:4%; width:24%;">
+<img src="attachments/odp/slide56-2.png" class="stack-img" style="bottom:0; left:1%; width:16%;">
+<img src="attachments/odp/slide56-3.png" class="stack-img" style="bottom:0; right:0; width:34%;">
 
 ::: r-fit-text
-Assume you
+**Build so things can<br>travel outward**
+:::
 
-will lose interest
+Maximize the surface area for shareability.
+
+
+<!-- slide 57 — projects collage + centered callout -->
+## You can't design for a user you don't know, so design trajectories instead
+
+- I don't care about CBFC, but I care about Superman.
+- Wait what else is censored??
+- Give me all of it, I'll check myself.
+- Keep me updated.
+
+<!-- slide 58 — title + floppy image right -->
+## {.textcenter}
+
+[**Charts are only<br>an advertisement**]{style="font-size:1.6em;"}
+
+Present your view, but know that people also want to do more work.
+
+<img src="attachments/odp/slide58-1.png" class="stack-img" style="top:28%; right:2%; width:32%;">
+
+
+<!-- slide 59 — two-tier statement -->
+## {.center .textcenter}
+
+::: r-fit-text
+**Assume you<br>will lose interest**
+:::
 
 A public data interface outlives the individual interest of the person building it.
-:::
 
 
-<!-- slide 60 -->
-## {.textcenter}
+<!-- slide 60 — takeaway recap -->
+## {.center}
 
-::: r-fit-text
+::: {.takeaways}
 Build so things can travel outward
 
 Design for low friction, high delight
@@ -517,12 +461,7 @@ Build for the day you lose interest
 :::
 
 
-<!-- slide 61 -->
-## Let us build things that start something, not things where the reader stops
+<!-- slide 61 — mural + centered callout -->
+## {background-image="attachments/odp/slide61-2.png" background-size="cover" .textcenter}
 
-:::{.textcenter}
-![](attachments/odp/slide61-1.png){width="60%"}
-![](attachments/odp/slide61-2.png){width="60%"}
-:::
-
-
+<div class="callout-box" style="font-size:1.5em; max-width:56%; text-align:center;">Let us build things that start something, not things where the reader stops</div>
