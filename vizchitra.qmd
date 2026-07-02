@@ -294,29 +294,53 @@ Who spends more time<br>cleaning up after meals?
 :::
 
 
-## {background-image="attachments/odp/slide44-1.png" background-size="contain"}
-
-
-## {background-image="attachments/odp/slide45-1.png" background-size="contain"}
-
-
 ## {.textcenter}
 
-![](attachments/odp/slide46-1.png){width="64%"}
+![](attachments/odp/slide44-1.png){width="72%"}
 
 **Spread out across multiple<br>files and documents**
 
 
 ## {.textcenter}
 
-![](attachments/odp/slide47-1.png){width="64%"}
+![](attachments/odp/slide45-1.png){width="78%"}
 
-**Do the work and put it into<br>one usable file**
+**Every field is a numeric code**
+
+
+## {auto-animate="true" auto-animate-duration="0.8" auto-animate-easing="ease-in-out" .textcenter}
+
+| sector | district | gender | religion | activity |
+|:------:|:--------:|:------:|:--------:|:--------:|
+| [1]{data-id="c11" .code} | [13]{data-id="c12" .code} | [1]{data-id="c13" .code} | [1]{data-id="c14" .code} | [31]{data-id="c15" .code} |
+| [1]{data-id="c21" .code} | [13]{data-id="c22" .code} | [2]{data-id="c23" .code} | [1]{data-id="c24" .code} | [92]{data-id="c25" .code} |
+| [2]{data-id="c31" .code} | [13]{data-id="c32" .code} | [1]{data-id="c33" .code} | [2]{data-id="c34" .code} | [11]{data-id="c35" .code} |
+
+::: {.codebook data-id="codebook"}
+`sector` 1 = Rural · 2 = Urban<br>
+`district` 13 = Jammu<br>
+`gender` 1 = male · 2 = female<br>
+`activity` 11 = self-employed · 31 = salaried work · 92 = domestic duties
+....
+:::
+
+**The codes mean nothing without<br>a separate codebook**
+
+
+## {auto-animate="true" auto-animate-duration="0.8" auto-animate-easing="ease-in-out" .textcenter}
+
+| sector | district | gender | religion | activity |
+|:------:|:--------:|:------:|:--------:|:--------:|
+| [Rural]{data-id="c11" .label} | [Jammu]{data-id="c12" .label auto-animate-delay="0.1"} | [male]{data-id="c13" .label auto-animate-delay="0.2"} | [Hinduism]{data-id="c14" .label auto-animate-delay="0.3"} | [salaried work]{data-id="c15" .label auto-animate-delay="0.4"} |
+| [Rural]{data-id="c21" .label} | [Jammu]{data-id="c22" .label auto-animate-delay="0.1"} | [female]{data-id="c23" .label auto-animate-delay="0.2"} | [Hinduism]{data-id="c24" .label auto-animate-delay="0.3"} | [domestic duties]{data-id="c25" .label auto-animate-delay="0.4"} |
+| [Urban]{data-id="c31" .label} | [Jammu]{data-id="c32" .label auto-animate-delay="0.1"} | [male]{data-id="c33" .label auto-animate-delay="0.2"} | [Islam]{data-id="c34" .label auto-animate-delay="0.3"} | [self-employed]{data-id="c35" .label auto-animate-delay="0.4"} |
+
+**Do the work: map it once,<br>publish one usable file**
 
 
 ## {.textcenter}
 
-![](attachments/odp/slide49-1.png){width="74%"}
+![](attachments/odp/slide49-1.png){width="100%"}
 
 **Run complex queries right in<br>your browser (no server!)**
 
@@ -355,9 +379,9 @@ What can you do<br>for the public?
 :::
 
 
-## A BI dashboard gets users, trust, and distribution by default {.takeaway}
+<!-- ## A BI dashboard gets users, trust, and distribution by default {.takeaway}
 
-A public data interface gets none — you have to design for them.
+A public data interface gets none — you have to design for them. -->
 
 
 ## Build so things can travel outward {.takeaway}
@@ -393,7 +417,7 @@ A public data interface outlives the individual interest of the person building 
 
 ## A file anyone can download {.takeaway}
 
-A CSV at a stable link. No login, no OTP, no PDF of a scan.
+_Seedhi baat, no bakwas._
 
 - If you design, you can chart around it.
 - If you develop, you can make it queryable.

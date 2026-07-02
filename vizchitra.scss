@@ -215,6 +215,60 @@ body {
   p, li { margin: 0.2em 0; }
 }
 
+// Data tables (the code → label transform sequence)
+.reveal .slides table {
+  margin: 0 auto 0.8em;
+  border-collapse: collapse;
+
+  th {
+    font-family: $font-display;
+    font-weight: 700;
+    border-bottom: 3px solid $theme-grey;
+    padding: 0.3em 1.1em;
+  }
+  td {
+    padding: 0.3em 1.1em;
+    border-bottom: 1px solid rgba($theme-grey, 0.15);
+  }
+}
+
+// Cell values in the transform tables: coded chips morph into plain labels
+.reveal td .code,
+.reveal td .label {
+  display: inline-block;
+  padding: 0.05em 0.4em;
+  border-radius: 4px;
+}
+.reveal td .code {
+  font-family: SFMono-Regular, Menlo, Consolas, monospace;
+  color: $theme-indigo;
+  background-color: rgba($theme-indigo, 0.09);
+}
+.reveal td .label {
+  color: $theme-grey;
+  background-color: rgba($theme-indigo, 0);
+}
+
+// Codebook excerpt card
+.reveal .codebook {
+  display: inline-block;
+  text-align: left;
+  font-size: 0.6em;
+  line-height: 1.8;
+  background: $theme-light;
+  border: 2px dashed rgba($theme-grey, 0.55);
+  border-radius: 6px;
+  padding: 0.7em 1.3em;
+  margin-bottom: 0.8em;
+
+  code {
+    background: none;
+    color: $theme-indigo;
+    font-weight: 700;
+    padding-right: 0.35em;
+  }
+}
+
 // Takeaway slide — `## Headline {.takeaway}` + one supporting line,
 // optionally a short quote list underneath
 .reveal section.takeaway {
