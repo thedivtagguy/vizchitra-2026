@@ -7,7 +7,7 @@ open-graph: true
 
 format:
   revealjs:
-    theme: [default, style.scss]
+    theme: [default, vizchitra.scss]
     width: 1600
     height: 900
     center: true
@@ -28,9 +28,8 @@ revealjs-plugins:
 The dashboards of<br>our discontents
 :::
 
-
 ::: footer
-[Vizchitra, 2026]{style="opacity:0.5;"}
+Vizchitra, 2026
 :::
 
 
@@ -63,11 +62,14 @@ The dashboards of<br>our discontents
 
 
 ## {background-image="attachments/odp/slide04-1.png" background-size="80%"}
+
+
 ## {background-image="attachments/odp/looking-in.png" background-size="80%"}
+
 
 ## {background-image="attachments/odp/slide07-1.png" background-size="contain"}
 
-<div class="callout-box" style="position:absolute; top:33%; left:30%; font-size:1.8em;">We get KPIs!</div>
+[We get KPIs!]{.callout-box .absolute top="33%" left="30%"}
 
 
 ## {.center .textcenter}
@@ -76,7 +78,7 @@ The dashboards of<br>our discontents
 This is not an aesthetics problem,<br>but one of misunderstood needs
 :::
 
-<!-- Diagram Chasing -->
+
 ## {background-image="attachments/odp/slide09-1.png" background-size="70%"}
 
 
@@ -99,7 +101,7 @@ Any problem can be solved by the creation of a new dashboard, which gives the ap
 ##
 
 :::: {.columns}
-::: {.column .colmid width="28%" }
+::: {.column .colmid width="28%"}
 **Nobody's taking pictures of a dataset being released**
 :::
 ::: {.column width="72%"}
@@ -111,9 +113,6 @@ Any problem can be solved by the creation of a new dashboard, which gives the ap
 ## {background-image="attachments/odp/trend_launches.png" background-size="90%"}
 
 
-
-
-<!-- slide 14 — kicker + statement -->
 ## {.center .textcenter}
 
 How did we get here?
@@ -123,14 +122,13 @@ Dashboards are<br>*the* familiar pattern.
 :::
 
 
-<!-- slide 15 — full-bleed dashboard + overlay title -->
 ## {background-image="attachments/odp/dashboard.png" background-size="contain" background-color="#1A202C"}
 
-[Line go up: I happy 😄]{.overlay-title .fragment style="font-size:2.4em;  background-color: #252F3F"}
-[Line go down: I sad 😔]{.overlay-title .fragment style="font-size:2.4em;  background-color: #252F3F"}
+[Line go up: I happy 😄]{.overlay-title .fragment style="background-color: #1A202C"}
+
+[Line go down: I sad 😔]{.overlay-title .fragment style="background-color: #1A202C"}
 
 
-<!-- slide 16 — left-aligned text block -->
 ## {.center .textcenter}
 
 ::: {.bi-audience}
@@ -140,13 +138,12 @@ Known person,<br>known question,<br>and authority to act
 :::
 
 
-<!-- slide 17 — scattered words -->
 ## {background-image="attachments/odp/who.png" background-size="80%"}
 
-<!-- slide 18 — comparison: muted vs active -->
+
 ##
 
-:::: {.columns .left }
+:::: {.columns}
 ::: {.column .bi-audience .colmid width="50%"}
 [**BI Audience**]{.muted}
 
@@ -160,7 +157,6 @@ Strangers,<br>no known questions,<br>cannot take action
 ::::
 
 
-<!-- slide 19 — statement + follow-on -->
 ## {.center .textcenter}
 
 ::: r-fit-text
@@ -170,7 +166,6 @@ Strangers,<br>no known questions,<br>cannot take action
 A story, a paper, a campaign, a tool
 
 
-<!-- slide 20 — centered statement -->
 ## {.center .textcenter}
 
 ::: r-fit-text
@@ -181,7 +176,7 @@ Dashboards answer the <mark>known unknowns</mark>,<br>but close questions that c
 When you publish only a dashboard for public data, you're imposing your worldview on everyone else. You're saying "these are the only questions worth asking" and "this is the only way to look at it." dashboards are for known unknowns, but raw logs/querying are for unknown unknowns.
 :::
 
-<!-- slide 21 — centered statement -->
+
 ## {.center .textcenter}
 
 ::: r-fit-text
@@ -191,18 +186,14 @@ What can generous<br>infrastructure look like?
 [Spoiler: There's a Magic Solution]{.rainbow}
 
 
-
-<!-- slide 22 — centered image -->
 ## {background-image="attachments/odp/slide22-1.png" background-size="contain"}
 
 
-<!-- slide 23 — article + face overlay -->
 ## {background-image="attachments/odp/slide23-1.png" background-size="contain"}
 
-<img src="attachments/odp/slide23-2.png" class="stack-img" style="top:52%; left:54%; width:13%;">
+![](attachments/odp/slide23-2.png){.absolute top="52%" left="54%" width="13%"}
 
 
-<!-- slide 24 — image-bleed left / text right -->
 ##
 
 :::: {.columns}
@@ -215,15 +206,12 @@ What can generous<br>infrastructure look like?
 ::::
 
 
-<!-- slide 25 — centered image -->
 ## {background-image="attachments/odp/slide25-1.png" background-size="contain"}
 
 
-<!-- slide 26 — centered image -->
 ## {background-image="attachments/odp/slide26-1.png" background-size="contain"}
 
 
-<!-- slide 27 — text left / image right -->
 ##
 
 :::: {.columns}
@@ -236,30 +224,26 @@ What can generous<br>infrastructure look like?
 ::::
 
 
-<!-- slide 28 — full-bleed dark -->
 ## {background-image="attachments/odp/slide28-1.png" background-size="contain" background-color="#0d1117"}
 
 
-<!-- slide 29 — full-bleed -->
 ## {background-image="attachments/odp/slide29-1.png" background-size="contain"}
 
 
-<!-- slide 30 — kicker + image below -->
 ## {.textcenter}
 
-[Horses? Maps? Shah Rukh Khan?]{style="font-size:1.3em; font-weight:800;"}
+[Horses? Maps? Shah Rukh Khan?]{.kicker}
 
 ![](attachments/odp/slide30-1.png){width="78%"}
 
 
-<!-- slide 31 — heading + URL list + chart -->
 ## {.textcenter}
 
-[Permalinks!]{style="font-size:1.4em; font-weight:800;"}
+[Permalinks!]{.kicker}
 
 Why would you *not* want your users to share things? Everything is linkable!
 
-::: {.urls style="display:inline-block; text-align:left;"}
+::: {.urls}
 - https://cbfc.watch/film/sinners-2025
 - https://cbfc.watch/browse/actors/fahadh-faasil
 - https://cbfc.watch/browse/content/religious
@@ -269,37 +253,31 @@ Why would you *not* want your users to share things? Everything is linkable!
 ![](attachments/odp/slide31-1.png){width="55%"}
 
 
-<!-- slide 32 — full-bleed -->
 ## {background-image="attachments/odp/slide32-1.png" background-size="contain"}
 
 
-<!-- slide 33 — full-bleed chat + caption strip -->
 ## {background-image="attachments/odp/slide33-1.png" background-size="cover" background-color="#0d1117"}
 
-<img src="attachments/odp/slide33-2.png" class="stack-img" style="bottom:6%; left:0; width:100%;">
+![](attachments/odp/slide33-2.png){.absolute bottom="6%" left="0" width="100%"}
 
 
-
-
-<!-- slide 35 — image right / text bottom-left -->
 ## {background-image="attachments/odp/slide35-1.png" background-size="contain" background-position="right"}
 
-<div style="position:absolute; bottom:16%; left:3%; max-width:28%; font-size:1.4em; font-weight:800;">Confused about the data? I'll show you!</div>
+[Confused about the data? I'll show you!]{.kicker .absolute bottom="16%" left="3%" width="28%"}
 
 
-<!-- slide 36 — article collage -->
 ## {background-color="#ffffff"}
 
-<img src="attachments/odp/slide36-1.png" class="stack-img" style="top:6%; left:2%; width:56%;">
-<img src="attachments/odp/slide36-2.png" class="stack-img" style="top:30%; right:1%; width:52%;">
-<img src="attachments/odp/slide36-3.png" class="stack-img" style="bottom:5%; left:4%; width:54%;">
+![](attachments/odp/slide36-1.png){.absolute top="6%" left="2%" width="56%"}
+
+![](attachments/odp/slide36-2.png){.absolute top="30%" right="1%" width="52%"}
+
+![](attachments/odp/slide36-3.png){.absolute bottom="5%" left="4%" width="54%"}
 
 
-
-<!-- slide 40 — contribute page + chat overlay -->
 ## {background-image="attachments/odp/slide40-1.png" background-size="contain"}
 
-<img src="attachments/odp/slide40-2.png" class="stack-img" style="top:28%; left:12%; width:72%;">
+![](attachments/odp/slide40-2.png){.absolute top="28%" left="12%" width="72%"}
 
 
 ## {.center .textcenter}
@@ -309,7 +287,6 @@ There is more than one<br>way to public some data.
 :::
 
 
-<!-- slide 43 — centered statement -->
 ## {.center .textcenter}
 
 ::: r-fit-text
@@ -317,15 +294,12 @@ Who spends more time<br>cleaning up after meals?
 :::
 
 
-<!-- slide 44 — full-bleed -->
 ## {background-image="attachments/odp/slide44-1.png" background-size="contain"}
 
 
-<!-- slide 45 — full-bleed -->
 ## {background-image="attachments/odp/slide45-1.png" background-size="contain"}
 
 
-<!-- slide 46 — table image + caption below -->
 ## {.textcenter}
 
 ![](attachments/odp/slide46-1.png){width="64%"}
@@ -333,7 +307,6 @@ Who spends more time<br>cleaning up after meals?
 **Spread out across multiple<br>files and documents**
 
 
-<!-- slide 47 — table image + caption below -->
 ## {.textcenter}
 
 ![](attachments/odp/slide47-1.png){width="64%"}
@@ -341,7 +314,6 @@ Who spends more time<br>cleaning up after meals?
 **Do the work and put it into<br>one usable file**
 
 
-<!-- slide 49 — image + caption below -->
 ## {.textcenter}
 
 ![](attachments/odp/slide49-1.png){width="74%"}
@@ -349,7 +321,6 @@ Who spends more time<br>cleaning up after meals?
 **Run complex queries right in<br>your browser (no server!)**
 
 
-<!-- slide 50 — heading + two images -->
 ## {.textcenter}
 
 **Who spends more time<br>cleaning up after meals?**
@@ -364,7 +335,6 @@ Who spends more time<br>cleaning up after meals?
 ::::
 
 
-<!-- slide 51 — heading + image below -->
 ## {.textcenter}
 
 **Share your analysis<br>with anyone with a link**
@@ -372,15 +342,12 @@ Who spends more time<br>cleaning up after meals?
 ![](attachments/odp/slide51-1.png){width="84%"}
 
 
-<!-- slide 52 — full-bleed dark -->
 ## {background-image="attachments/odp/slide52-1.png" background-size="contain" background-color="#000000"}
 
 
-<!-- slide 53 — full-bleed -->
 ## {background-image="attachments/odp/slide53-1.png" background-size="contain"}
 
 
-<!-- slide 54 — centered statement -->
 ## {.center .textcenter}
 
 ::: r-fit-text
@@ -388,80 +355,70 @@ What can you do<br>for the public?
 :::
 
 
-<!-- slide 55 — two-tier statement -->
-## {.center .textcenter}
+## A BI dashboard gets users, trust, and distribution by default {.takeaway}
 
-A BI dashboard gets<br>**users, trust, distribution by default.**
-
-<br>
-
-With a public data interface,<br>**You get none.**
+A public data interface gets none — you have to design for them.
 
 
-<!-- slide 56 — takeaway 1 (composed) -->
-## {.center .textcenter background-color="#ffffff"}
-
-::: {.urls style="position:absolute; top:4%; left:3%; text-align:left; font-size:0.6em;"}
-dashboard.gov.in/?filters=location
-
-cbfc.watch/film/animal-2023
-
-app.powerbi.com/view?r=eyJrIjoiYjU3NDc3...
-:::
-<img src="attachments/odp/slide56-1.png" class="stack-img" style="top:5%; right:4%; width:24%;">
-<img src="attachments/odp/slide56-2.png" class="stack-img" style="bottom:0; left:1%; width:16%;">
-<img src="attachments/odp/slide56-3.png" class="stack-img" style="bottom:0; right:0; width:34%;">
-
-::: r-fit-text
-**Build so things can<br>travel outward**
-:::
+## Build so things can travel outward {.takeaway}
 
 Maximize the surface area for shareability.
 
 
-<!-- slide 57 — projects collage + centered callout -->
-## You can't design for a user you don't know, so design trajectories instead
+## Design trajectories, not users {.takeaway}
 
-- I don't care about CBFC, but I care about Superman.
-- Wait what else is censored??
-- Give me all of it, I'll check myself.
-- Keep me updated.
+You can't design for a user you don't know.
 
-<!-- slide 58 — title + floppy image right -->
-## {.textcenter}
+- "I don't care about CBFC, but I care about Superman."
+- "Wait, what else is censored??"
+- "Give me all of it, I'll check myself."
+- "Keep me updated."
 
-[**Charts are only<br>an advertisement**]{style="font-size:1.6em;"}
+
+## Charts are only an advertisement {.takeaway}
 
 Present your view, but know that people also want to do more work.
 
-<img src="attachments/odp/slide58-1.png" class="stack-img" style="top:28%; right:2%; width:32%;">
 
-
-<!-- slide 59 — two-tier statement -->
-## {.center .textcenter}
-
-::: r-fit-text
-**Assume you<br>will lose interest**
-:::
+## Assume you will lose interest {.takeaway}
 
 A public data interface outlives the individual interest of the person building it.
 
 
-<!-- slide 60 — takeaway recap -->
-## {.center}
+## {.center .textcenter .r-fit-text}
 
-::: {.takeaways}
+[The Magic Solution, as promised]{.rainbow}
+
+
+
+## A file anyone can download {.takeaway}
+
+A CSV at a stable link. No login, no OTP, no PDF of a scan.
+
+- If you design, you can chart around it.
+- If you develop, you can make it queryable.
+- If you work in government, you can simply release it.
+- No one can viz on data that isn't there.
+
+
+##  {.recap}
+
 Build so things can travel outward
+:   Maximize the surface area for shareability.
 
-Design for low friction, high delight
+Design trajectories, not users
+:   You can't design for a user you don't know.
 
-Charts cannot be the end point
+Charts are only an advertisement
+:   People will always want to do more work with the data.
 
-Build for the day you lose interest
-:::
+Assume you will lose interest
+:   Build things that outlive your attention.
+
+Just publish the data
+:   Please.
 
 
-<!-- slide 61 — mural + centered callout -->
 ## {background-image="attachments/odp/slide61-2.png" background-size="cover" .textcenter}
 
-<div class="callout-box" style="font-size:1.5em; max-width:56%; text-align:center;">Let us build things that start something, not things where the reader stops</div>
+[Let us build things that start something, not things where the reader stops]{.callout-box}

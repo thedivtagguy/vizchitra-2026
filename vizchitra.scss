@@ -1,0 +1,276 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Palette
+$theme-light:     #ffffff;
+$theme-yellow:    #e8c85a;
+$theme-indigo:    #4f4e8d;
+$theme-grey:      #2b2b2b;
+$theme-lightgrey: #a3a3a2;
+$theme-green:     #3a7d44;
+
+$body-bg: $theme-light;
+$body-color: $theme-grey;
+$link-color: $theme-indigo;
+
+// Type: Cartridge for display/titles, Atkinson for everything else
+$font-display: "Cartridge", "Atkinson Hyperlegible", sans-serif;
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-font: $font-display;
+$presentation-heading-font-weight: 700;
+
+/*-- scss:rules --*/
+
+// ------------------------------------------------------------------
+// Cartridge, served locally from attachments/Cartridge/
+// ------------------------------------------------------------------
+@font-face {
+  font-family: "Cartridge";
+  src: url("../../../../../attachments/Cartridge/Cartridge-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cartridge";
+  src: url("../../../../../attachments/Cartridge/Cartridge-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cartridge";
+  src: url("../../../../../attachments/Cartridge/Cartridge-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cartridge";
+  src: url("../../../../../attachments/Cartridge/Cartridge-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
+
+// ------------------------------------------------------------------
+// Base
+// ------------------------------------------------------------------
+body {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.5' numOctaves='1' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='0 .5 1'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.25'/%3E%3C/svg%3E");
+}
+
+.reveal a {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.reveal .footer {
+  color: $theme-grey;
+  opacity: 0.5;
+}
+
+// Big statement slides set in the display face
+.reveal .r-fit-text {
+  font-family: $font-display;
+}
+
+// ------------------------------------------------------------------
+// Utilities
+// ------------------------------------------------------------------
+.textcenter { text-align: center; }
+
+.reveal .muted { color: $theme-lightgrey; }
+
+.reveal mark {
+  background-color: $theme-yellow;
+  color: $theme-grey;
+  padding: 0 0.12em;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+// Animated rainbow text — [spoiler]{.rainbow}
+.reveal .rainbow {
+  display: inline-block;
+  font-weight: 700;
+  background: linear-gradient(
+    100deg,
+    #ff595e, #ff924c, #ffca3a, #8ac926, #1982c4, #6a4c93, #ff595e
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-slide 6s linear infinite;
+}
+@keyframes rainbow-slide {
+  to { background-position: -200% 0; }
+}
+
+// ------------------------------------------------------------------
+// Layout
+// ------------------------------------------------------------------
+.reveal .columns {
+  display: flex !important;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1.5rem;
+}
+
+// Vertically centered column content; pair with .right to right-align
+.reveal .colmid {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.reveal .colmid.right {
+  text-align: right;
+  align-items: flex-end;
+}
+.reveal .colmid p { margin: 0.25em 0; }
+
+// Image that fills its column edge-to-edge
+.reveal img.bleed {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  margin: 0;
+  display: block;
+}
+.reveal img.bleed.contain { object-fit: contain; }
+
+// Overlay elements use Quarto's {.absolute top=… left=…} syntax.
+// Under center:true a slide made of absolute overlays collapses to zero
+// height, so give those sections the full 1600×900 stage.
+.reveal .slides section:has(.absolute) {
+  height: 100% !important;
+  top: 0 !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+.reveal img.absolute {
+  margin: 0;
+  max-height: none !important;
+}
+
+// ------------------------------------------------------------------
+// Components
+// ------------------------------------------------------------------
+
+// Slide-level heading text that isn't a markdown heading — [Title]{.kicker}
+.reveal .kicker {
+  display: block;
+  font-family: $font-display;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+// Bordered sticky-label callout — [We get KPIs!]{.callout-box}
+.reveal .callout-box {
+  display: inline-block;
+  font-family: $font-display;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 60%;
+  background: $theme-light;
+  color: $theme-grey;
+  border: 3px solid $theme-grey;
+  border-radius: 6px;
+  padding: 0.35em 0.75em;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+}
+
+// Full-width banner over a dark background slide
+.reveal .overlay-title {
+  display: block;
+  width: 100%;
+  font-family: $font-display;
+  font-size: 2.4em;
+  font-weight: 700;
+  text-align: center;
+  background-color: #252f3f;
+}
+
+// "BI Audience" definition block: big label, description underneath
+.reveal .bi-audience {
+  line-height: 1.25;
+
+  p { margin: 0.15em 0; }
+  p:first-child {
+    font-family: $font-display;
+    font-size: 2em;
+  }
+  p:last-child { font-size: 1.5em; }
+}
+
+// Green permalink-style URLs
+.reveal .urls {
+  display: inline-block;
+  text-align: left;
+
+  &, a { color: $theme-green !important; }
+  p, li { margin: 0.2em 0; }
+}
+
+// Takeaway slide — `## Headline {.takeaway}` + one supporting line,
+// optionally a short quote list underneath
+.reveal section.takeaway {
+  text-align: center;
+
+  h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 2.2em;
+      height: 0.09em;
+      margin: 0.3em auto 0;
+      background: $theme-yellow;
+      border-radius: 2px;
+    }
+  }
+
+  p { font-size: 1.3em; }
+
+  ul {
+    list-style: none;
+    margin: 1.2em 0 0;
+    padding: 0;
+  }
+  li {
+    font-size: 1.05em;
+    color: rgba($theme-grey, 0.7);
+    margin: 0.4em 0;
+  }
+}
+
+// Recap slide — `## Title {.recap}` + a definition list of
+// headline/summary pairs; designed to be photographed
+.reveal section.recap {
+  text-align: left;
+
+  h2 {
+    font-size: 1.7em;
+    margin-bottom: 0.9em;
+  }
+
+  dl { margin: 0; }
+
+  dt {
+    width: fit-content;
+    font-family: $font-display;
+    font-weight: 700;
+    font-size: 1.35em;
+  }
+
+  dd {
+    margin: 0.15em 0 1em;
+    font-size: 1.05em;
+    color: rgba($theme-grey, 0.75);
+  }
+}
