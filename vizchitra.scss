@@ -130,6 +130,12 @@ body {
 }
 .reveal .colmid p { margin: 0.25em 0; }
 
+// Framed screenshot — subtle shadow + rounded corners
+.reveal img.shot {
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.18);
+  border-radius: 8px;
+}
+
 // Image that fills its column edge-to-edge
 .reveal img.bleed {
   width: 100%;
@@ -247,6 +253,82 @@ body {
 .reveal td .label {
   color: $theme-grey;
   background-color: rgba($theme-indigo, 0);
+}
+
+.reveal .ecert {
+  display: inline-block;
+  width: 60%;
+  background: #EEF9FD;
+  border: 1px solid #1ba9e1;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 0.52em;
+  line-height: 1.5;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.15);
+
+  p { margin: 0; }
+
+  .ecert-head {
+    display: block;
+    background: #1ba9e1;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.55em 1.2em;
+  }
+  .ecert-kv {
+    display: block;
+    padding: 0.5em 1.2em;
+  }
+  .ecert-band {
+    display: block;
+    background: #5a5a5a;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding: 0.25em;
+    margin: 0 1.2em;
+    border-radius: 4px;
+  }
+
+  table {
+    width: calc(100% - 2.4em);
+    margin: 0.6em 1.2em 1.2em;
+
+    th, td {
+      border: 1px solid #9a9a9a;
+      background: #fff;
+      padding: 0.3em 0.7em;
+      font-family: $font-family-sans-serif;
+    }
+    th { border-bottom: 1px solid #9a9a9a; }
+  }
+}
+
+// Repo file tree (the data.csv slide) — muted entries, one highlighted file
+.reveal .filetree {
+  display: inline-block;
+  text-align: left;
+  font-family: SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1.1em;
+  line-height: 2.1;
+  margin-bottom: 0.6em;
+
+  code {
+    background: none;
+    color: inherit;
+    opacity: 0.55;
+  }
+
+  .csv code {
+    opacity: 1;
+    color: $theme-grey;
+    background: $theme-yellow;
+    padding: 0.1em 0.45em;
+    border-radius: 4px;
+    font-weight: 700;
+  }
 }
 
 // Codebook excerpt card

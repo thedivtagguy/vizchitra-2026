@@ -186,12 +186,13 @@ What can generous<br>infrastructure look like?
 [Spoiler: There's a Magic Solution]{.rainbow}
 
 
-## {background-image="attachments/odp/slide22-1.png" background-size="contain"}
+## {.textcenter}
 
+::: {.r-stack}
+![](attachments/odp/slide22-1.png){.shot height="780"}
 
-## {background-image="attachments/odp/slide23-1.png" background-size="contain"}
-
-![](attachments/odp/slide23-2.png){.absolute top="52%" left="54%" width="13%"}
+![](attachments/odp/slide23-2-pad.png){.shot .fragment height="780"}
+:::
 
 
 ##
@@ -206,7 +207,23 @@ What can generous<br>infrastructure look like?
 ::::
 
 
-## {background-image="attachments/odp/slide25-1.png" background-size="contain"}
+## {.center .textcenter}
+
+:::: {.ecert}
+[CENTRAL BOARD OF FILM CERTIFICATION]{.ecert-head}
+
+[**Film** : "UNTITLED MASS MOVIE" (Color) (2-D) · **Cert No.** DIL/7/86/2025-HYD · Rated **A**]{.ecert-kv}
+
+[Endorsement]{.ecert-band}
+
+| Cut No. | Description | Duration |
+|:-------:|:------------|---------:|
+| 1 | Excise the word <mark>"Old Monk"</mark> wherever it occurs (also in subtitle text) | 00.00 |
+| 2 | <mark>Reduce the duration of kissing scene by exactly 50%</mark> | 00.16 |
+| 3 | Delete the visuals and dialogue regarding <mark>flirting with nun</mark> character, in total | 00.35 |
+| 4 | Mute the expletive at 1.42.06 and replace with <mark>sound of conch</mark> | 00.00 |
+|   | **Total :** | **00.51** |
+::::
 
 
 ## {background-image="attachments/odp/slide26-1.png" background-size="contain"}
@@ -224,7 +241,17 @@ What can generous<br>infrastructure look like?
 ::::
 
 
-## {background-image="attachments/odp/slide28-1.png" background-size="contain" background-color="#0d1117"}
+## {background-color="#0d1117" .center .textcenter}
+
+::: {.filetree}
+`censor-board-cuts/`<br>
+`├── scripts/`<br>
+`├── metadata/`<br>
+`├── README.md`<br>
+`└──` [`data.csv`]{.csv .fragment fragment-index=1}
+:::
+
+[Every film, every cut, every certificate — in one file]{.kicker .fragment fragment-index=1}
 
 
 ## {background-image="attachments/odp/slide29-1.png" background-size="contain"}
@@ -237,8 +264,10 @@ What can generous<br>infrastructure look like?
 ![](attachments/odp/slide30-1.png){width="78%"}
 
 
-## {.textcenter}
+##
 
+::::: {.columns}
+:::: {.column .colmid width="46%"}
 [Permalinks!]{.kicker}
 
 Why would you *not* want your users to share things? Everything is linkable!
@@ -249,35 +278,59 @@ Why would you *not* want your users to share things? Everything is linkable!
 - https://cbfc.watch/browse/content/religious
 - https://cbfc.watch/search?q=maps+language=English
 :::
-
-![](attachments/odp/slide31-1.png){width="55%"}
+::::
+:::: {.column .colmid .textcenter width="54%"}
+![](attachments/odp/slide31-1.png){.shot width="92%"}
+::::
+:::::
 
 
 ## {background-image="attachments/odp/slide32-1.png" background-size="contain"}
 
 
-## {background-image="attachments/odp/slide33-1.png" background-size="cover" background-color="#0d1117"}
+## {background-color="#0d1117" .textcenter}
 
-![](attachments/odp/slide33-2.png){.absolute bottom="6%" left="0" width="100%"}
+![](attachments/odp/slide33-1.png){width="60%"}
 
-
-## {background-image="attachments/odp/slide35-1.png" background-size="contain" background-position="right"}
-
-[Confused about the data? I'll show you!]{.kicker .absolute bottom="16%" left="3%" width="28%"}
+![](attachments/odp/slide33-2.png){width="85%"}
 
 
-## {background-color="#ffffff"}
+##
 
-![](attachments/odp/slide36-1.png){.absolute top="6%" left="2%" width="56%"}
+:::: {.columns}
+::: {.column .colmid width="34%"}
+[Confused about the data?<br>I'll show you!]{.kicker}
+:::
+::: {.column width="66%"}
+![](attachments/odp/slide35-1.png){.bleed .contain}
+:::
+::::
 
-![](attachments/odp/slide36-2.png){.absolute top="30%" right="1%" width="52%"}
 
-![](attachments/odp/slide36-3.png){.absolute bottom="5%" left="4%" width="54%"}
+## {.textcenter}
+
+![](attachments/odp/slide36-1.png){.shot width="56%"}
+
+:::: {.columns}
+::: {.column .textcenter width="50%"}
+![](attachments/odp/slide36-2.png){.shot .fragment width="94%"}
+:::
+::: {.column .textcenter width="50%"}
+![](attachments/odp/slide36-3.png){.shot .fragment width="94%"}
+:::
+::::
 
 
-## {background-image="attachments/odp/slide40-1.png" background-size="contain"}
+##
 
-![](attachments/odp/slide40-2.png){.absolute top="28%" left="12%" width="72%"}
+:::: {.columns}
+::: {.column .colmid .textcenter width="58%"}
+![](attachments/odp/slide40-1.png){.shot width="90%"}
+:::
+::: {.column .colmid .textcenter width="42%"}
+![](attachments/odp/slide40-2.png){.fragment width="90%"}
+:::
+::::
 
 
 ## {.center .textcenter}
