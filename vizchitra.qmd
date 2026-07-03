@@ -33,39 +33,17 @@ Vizchitra, 2026
 :::
 
 
-##
+## Project Gemini Mission Control Center, NASA
 
-:::: {.columns}
-::: {.column .colmid width="38%"}
-**Project Gemini<br>Mission Control Center, NASA**
-<br><br>
-**Somewhat unattainable.**
-:::
-::: {.column width="62%"}
 ![](attachments/odp/slide02-1.png){.bleed}
-:::
-::::
-
 
 ##
 
-:::: {.columns}
-::: {.column .colmid width="38%"}
-**Dholera City<br>Control Room.**
-<br><br>
-**Somewhat attainable.**
-:::
-::: {.column width="62%"}
-![](attachments/odp/slide03-1.png){.bleed}
-:::
-::::
+![](attachments/odp/slide04-1.png){.bleed}
 
+##
 
-## {background-image="attachments/odp/slide04-1.png" background-size="80%"}
-
-
-## {background-image="attachments/odp/looking-in.png" background-size="80%"}
-
+![](attachments/odp/looking-in.png){.bleed}
 
 ##
 
@@ -134,7 +112,7 @@ Dashboards are<br>*the* familiar pattern.
 
 ## {background-image="attachments/odp/dashboard.png" background-size="contain" background-color="#1A202C"}
 
-[Line go up: I happy 😄]{.overlay-title .fragment style="background-color: #1A202C"}
+[Line go up: I happy 😄]{.overlay-title .fragment style="background-color: #1A202C;"}
 
 [Line go down: I sad 😔]{.overlay-title .fragment style="background-color: #1A202C"}
 
@@ -247,10 +225,10 @@ What can generous<br>infrastructure look like?
 `├── scripts/`<br>
 `├── metadata/`<br>
 `├── README.md`<br>
-`└──` [`data.csv`]{.csv .fragment fragment-index=1}
+`└──` [`data.csv`]{.csv }
 :::
 
-[Every film, every cut, every certificate in one file!]{.kicker .fragment fragment-index=1}
+[Every film, every cut, every certificate in one file!]{.kicker}
 
 
 ## {background-image="attachments/odp/slide29-1.png" background-size="contain"}
@@ -263,17 +241,14 @@ What can generous<br>infrastructure look like?
 ![](attachments/odp/slide30-1.png){width="78%"}
 
 
-## {background-color="#F1E6DC" .center .textcenter}
+## Every film, actor, theme is a link you can share {background-color="#F1E6DC" .center .textcenter}
 
 ::: {.permalinks}
-`cbfc.watch/`[`film/sinners-2025`]{.plink}<br>
-`cbfc.watch/`[`browse/actors/fahadh-faasil`]{.plink .fragment fragment-index=1}<br>
-`cbfc.watch/`[`browse/content/religious`]{.plink .fragment fragment-index=2}<br>
-`cbfc.watch/`[`search?q=maps&language=English`]{.plink .fragment fragment-index=3}
+`cbfc.watch/`[`film/sinners-2025`]{.plink}<br><br>
+`cbfc.watch/`[`browse/actors/fahadh-faasil`]{.plink }<br><br>
+`cbfc.watch/`[`browse/content/religious`]{.plink }<br><br>
+`cbfc.watch/`[`search?q=maps&language=English`]{.plink }
 :::
-
-[Every film, actor, theme, and search is a link you can share!]{.kicker .fragment fragment-index=3}
-
 
 ## {background-image="attachments/odp/slide32-1.png" background-size="contain"  background-color="#F1E6DC"}
 
@@ -282,7 +257,7 @@ What can generous<br>infrastructure look like?
 
 [Ask ChatGPT about a film's censor cuts…]{.kicker style="color: #ffffff;"}
 
-![](attachments/odp/slide33-1.png){width="74%"}
+![](attachments/odp/slide33-1.png){width="104%" .bleed}
 
 [Linkable pages makes us *the* source.]{.callout-box .fragment .absolute bottom="4%" right="50%"}
 
@@ -323,9 +298,9 @@ What can generous<br>infrastructure look like?
 :::
 ::: {.column .colmid width="42%"}
 ::: {.imsg}
-[Btw the multiscan on the contribute page is great!!]{.bubble .fragment fragment-index=1}
-[Got a whole booklet <span class="stamp">22:14</span>]{.bubble .fragment fragment-index=2}
-[thx man, updated 🫡]{.bubble-out .fragment fragment-index=3}
+[Btw the multiscan on the contribute page is great!!]{.bubble }
+[Got a whole booklet <span class="stamp">22:14</span>]{.bubble }
+[thx man, updated 🫡]{.bubble-out }
 :::
 :::
 ::::
@@ -352,11 +327,10 @@ Who spends more time<br>cleaning up after meals?
 **Spread out across multiple<br>files and documents**
 
 
-## {.textcenter}
+## {background-image="attachments/odp/slide45-1.png ".textcenter}
 
-![](attachments/odp/slide45-1.png){width="72%"}
+[Every field is a numeric code]{.callout-box .absolute bottom="4%" right="50%"}
 
-**Every field is a numeric code**
 
 
 ## {auto-animate="true" auto-animate-duration="0.8" auto-animate-easing="ease-in-out" .textcenter}
@@ -369,14 +343,14 @@ Who spends more time<br>cleaning up after meals?
 
 **The codes mean nothing without<br>a separate codebook**
 
-::: {.codebook .absolute top="6%"}
+<!-- ::: {.codebook .absolute top="6%"}
 `codebook.pdf` sector 1 = Rural · 2 = Urban · gender 2 = female · religion 2 = Islam · activity 92 = domestic duties · …
-:::
+::: -->
 
 ![](attachments/odp/tangled.png){.sketch .absolute right="-1%" bottom="-1%" height="440"}
 
 
-## {auto-animate="true" auto-animate-duration="0.8" auto-animate-easing="ease-in-out" .textcenter}
+## {.textcenter}
 
 | [sector]{data-id="h1"} | [district]{data-id="h2"} | [gender]{data-id="h3"} | [religion]{data-id="h4"} | [activity]{data-id="h5"} |
 |:------:|:--------:|:------:|:--------:|:--------:|
@@ -389,11 +363,8 @@ Who spends more time<br>cleaning up after meals?
 ![](attachments/odp/solved.png){.sketch .absolute right="-1" bottom="-1%" height="440"}
 
 
-## {.textcenter}
-
-![](attachments/odp/slide49-1.png){width="100%"}
-
-**Run complex queries right in<br>your browser (no server!)**
+## {background-image="attachments/odp/slide49-1.png" .textcenter  background-size="contain"}
+[Run complex queries right in your browser (no server!)]{.callout-box  .absolute bottom="4%" left="50%"}
 
 
 ## {.textcenter}
@@ -452,18 +423,15 @@ Entry points for least context, but exit points for more questions.
 - "Wait, what else is censored??"
 - "Give me all of it, I'll check something myself."
 
-## Assume you will lose interest {.takeaway}
+## Charts are only advertisements {.takeaway}
 
-A public data interface outlives the individual interest of the person building it.
-
+Wrap them around the dataset! <br/>But know that they might be discarded.
 
 ## {.center .textcenter .r-fit-text}
 
 [The Magic Solution, as promised]{.rainbow}
 
-
-
-## Give a FILE anyone can download {.takeaway}
+## Give a file anyone can download {.takeaway}
 
 _Seedhi baat, no bakwas._ No one can viz on data that isn't there.
 
