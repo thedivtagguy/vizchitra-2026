@@ -263,25 +263,16 @@ What can generous<br>infrastructure look like?
 ![](attachments/odp/slide30-1.png){width="78%"}
 
 
-## { background-color="#F1E6DC"}
+## {background-color="#F1E6DC" .center .textcenter}
 
-::::: {.columns}
-:::: {.column .colmid width="46%"}
-[Permalinks!]{.kicker}
-
-Why would you *not* want your users to share things? Everything is linkable!
-
-::: {.urls}
-- https://cbfc.watch/film/sinners-2025
-- https://cbfc.watch/browse/actors/fahadh-faasil
-- https://cbfc.watch/browse/content/religious
-- https://cbfc.watch/search?q=maps+language=English
+::: {.permalinks}
+`cbfc.watch/`[`film/sinners-2025`]{.plink}<br>
+`cbfc.watch/`[`browse/actors/fahadh-faasil`]{.plink .fragment fragment-index=1}<br>
+`cbfc.watch/`[`browse/content/religious`]{.plink .fragment fragment-index=2}<br>
+`cbfc.watch/`[`search?q=maps&language=English`]{.plink .fragment fragment-index=3}
 :::
-::::
-:::: {.column .colmid .textcenter width="54%"}
-![](attachments/odp/slide31-1.png){.shot width="92%"}
-::::
-:::::
+
+[Every film, actor, theme, and search is a link you can share!]{.kicker .fragment fragment-index=3}
 
 
 ## {background-image="attachments/odp/slide32-1.png" background-size="contain"  background-color="#F1E6DC"}
@@ -289,20 +280,23 @@ Why would you *not* want your users to share things? Everything is linkable!
 
 ## {background-color="#0d1117" .textcenter}
 
-![](attachments/odp/slide33-1.png){width="110%"}
+[Ask ChatGPT about a film's censor cuts…]{.kicker style="color: #ffffff;"}
+
+![](attachments/odp/slide33-1.png){width="74%"}
+
+[Linkable pages makes us *the* source.]{.callout-box .fragment .absolute bottom="4%" right="50%"}
 
 
 
-##
+## {.textcenter}
 
-:::: {.columns}
-::: {.column .colmid width="34%"}
-[Confused about the data?<br>I'll show you!]{.kicker}
+[We show our work.]{.kicker}
+
+::: {.recipe}
+[`data.csv`]{.chip-data} [+]{.op} [`analysis-notebook`]{.chip-nb} [=]{.op} [every chart on the site]{.result}
 :::
-::: {.column width="66%"}
-![](attachments/odp/slide35-1.png){.bleed .contain}
-:::
-::::
+
+![](attachments/odp/slide35-1.png){.shot width="92%"}
 
 
 ## {.textcenter}
@@ -311,10 +305,10 @@ Why would you *not* want your users to share things? Everything is linkable!
 
 :::: {.columns}
 ::: {.column .textcenter width="50%"}
-![](attachments/odp/slide36-2.png){.shot .fragment width="94%"}
+![](attachments/odp/slide36-2.png){.shot width="94%"}
 :::
 ::: {.column .textcenter width="50%"}
-![](attachments/odp/slide36-3.png){.shot .fragment width="94%"}
+![](attachments/odp/slide36-3.png){.shot width="94%"}
 :::
 ::::
 
