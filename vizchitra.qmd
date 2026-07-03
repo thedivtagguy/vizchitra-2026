@@ -315,12 +315,18 @@ What can generous<br>infrastructure look like?
 
 ##
 
+[And data flows back in!]{.kicker .textcenter style="display: block;"}
+
 :::: {.columns}
 ::: {.column .colmid .textcenter width="58%"}
 ![](attachments/odp/slide40-1.png){.shot width="90%"}
 :::
-::: {.column .colmid .textcenter width="42%"}
-![](attachments/odp/slide40-2.png){.fragment width="90%"}
+::: {.column .colmid width="42%"}
+::: {.imsg}
+[Btw the multiscan on the contribute page is great!!]{.bubble .fragment fragment-index=1}
+[Got a whole booklet <span class="stamp">22:14</span>]{.bubble .fragment fragment-index=2}
+[thx man, updated 🫡]{.bubble-out .fragment fragment-index=3}
+:::
 :::
 ::::
 
