@@ -405,57 +405,59 @@ What can you do<br>for the public?
 :::
 
 
-<!-- ## A BI dashboard gets users, trust, and distribution by default {.takeaway}
+## {.center .textcenter}
 
-A public data interface gets none — you have to design for them. -->
+::: r-fit-text
+Remember, the public's only action<br>is <mark>more work with the data</mark>
+:::
 
+So build for the strangers who will do that work!
 
-## Build so things can travel outward {.takeaway}
+## The chart is an advertisement {.takeaway}
 
-
-Maximize the surface area for shareability. <br/> **Links** and **documentation**!
-
-## Design for levels of interest {.takeaway}
-
-Entry points for least context, but exit points for more questions.
+A wrapper, a lure, that draws attention the dataset doesn't have yet.
 
 - "I don't care about CBFC, but I care about Superman."
-- "Wait, what else is censored??"
-- "Give me all of it, I'll check something myself."
 
-## Charts are only advertisements {.takeaway}
+## The link is a necessary vehicle {.takeaway}
 
-Wrap them around the dataset! <br/>But know that they might be discarded.
-
-## {.center .textcenter .r-fit-text}
-
-[The Magic Solution, as promised]{.rainbow}
-
-## Give a file anyone can download {.takeaway}
-
-_Seedhi baat, no bakwas._ No one can viz on data that isn't there.
+It lets a finding travel without you. <br/>We want things to go outwards.
 
 
-- If you design, you can chart around it.
-- If you develop, you can make it queryable.
-- If you work in governments or NGOs, you can simply release it.
+## The _data_ is the main product {.takeaway}
 
+Not the viz or the dash! Charts get forgotten and websites will rot, <br/> but a CSV is what
+the next person's work is built on.
 
-##  {.recap}
+## {.recap}
 
-Build so things can travel outward
-:   Maximize the surface area for shareability.
+Charts are only advertisements
+:   They will draw attention for the dataset.
 
-Design levels of interest
-:   Not just your view, but opening more possibilities.
+Link are a vehicle to the world
+:   They let things travel outwards.
 
-Assume you will lose interest
-:   Build things that outlive your attention.
-
-Just publish the data with it
-:   Please.
+The data is the product
+:   Please, just publish the data. Seedhi baat, no bakwaas.
 
 
 ## {background-image="attachments/odp/slide61-2.png" background-size="cover" .textcenter}
 
-[Let us build things that start something, not things where the reader stops]{.callout-box .fragment}
+[Let us build things that start something, not things where the reader stops]{.callout-box  .absolute bottom="4%" left="50%"  style="font-size: 0.95em;"}
+
+## Thank you! <br/> Grab some Diagram Chasing merch outside :)
+
+:::: {.columns}
+::: {.column .colmid width="60%"}
+
+### Find me at
+
+- 🔗 aman.bh
+- 🔗 diagramchasing.fun
+:::
+::: {.column .colmid .textcenter width="40%"}
+![](attachments/odp/qr.png){width="380"}
+:::
+::::
+
+[Illustrations by Rhea Pradeep (@rhepository)]{.absolute bottom="2%" left="0" style="font-size: 0.75em; opacity: 0.7;"}
