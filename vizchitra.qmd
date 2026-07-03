@@ -412,10 +412,14 @@ Who spends more time<br>cleaning up after meals?
 
 ## {.textcenter}
 
-**Share your analysis<br>with anyone with a link**
+**Share your analysis with anyone with a link**
+
+::: {.permalinks style="font-size: 0.7em;"}
+`diagramchasing.fun/time-use-explorer?`[`view=time_analysis`]{.plink}`&`[`time=9:00–10:00`]{.plink}`&`[`state=karnataka`]{.plink}
+:::
+
 
 ![](attachments/odp/slide51-1.png){width="84%"}
-
 
 ## {background-image="attachments/odp/slide52-1.png" background-size="contain" background-color="#000000"}
 
@@ -437,23 +441,16 @@ A public data interface gets none — you have to design for them. -->
 
 ## Build so things can travel outward {.takeaway}
 
-Maximize the surface area for shareability.
 
+Maximize the surface area for shareability. <br/> **Links** and **documentation**!
 
-## Design trajectories, not users {.takeaway}
+## Design for levels of interest {.takeaway}
 
-You can't design for a user you don't know.
+Entry points for least context, but exit points for more questions.
 
 - "I don't care about CBFC, but I care about Superman."
 - "Wait, what else is censored??"
-- "Give me all of it, I'll check myself."
-- "Keep me updated."
-
-
-## Charts are only an advertisement {.takeaway}
-
-Present your view, but know that people also want to do more work.
-
+- "Give me all of it, I'll check something myself."
 
 ## Assume you will lose interest {.takeaway}
 
@@ -466,14 +463,14 @@ A public data interface outlives the individual interest of the person building 
 
 
 
-## A file anyone can download {.takeaway}
+## Give a FILE anyone can download {.takeaway}
 
-_Seedhi baat, no bakwas._
+_Seedhi baat, no bakwas._ No one can viz on data that isn't there.
+
 
 - If you design, you can chart around it.
 - If you develop, you can make it queryable.
-- If you work in government, you can simply release it.
-- No one can viz on data that isn't there.
+- If you work in governments or NGOs, you can simply release it.
 
 
 ##  {.recap}
@@ -481,16 +478,13 @@ _Seedhi baat, no bakwas._
 Build so things can travel outward
 :   Maximize the surface area for shareability.
 
-Design trajectories, not users
-:   You can't design for a user you don't know.
-
-Charts are only an advertisement
-:   People will always want to do more work with the data.
+Design levels of interest
+:   Not just your view, but opening more possibilities.
 
 Assume you will lose interest
 :   Build things that outlive your attention.
 
-Just publish the data
+Just publish the data with it
 :   Please.
 
 
