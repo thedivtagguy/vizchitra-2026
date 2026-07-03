@@ -67,9 +67,19 @@ Vizchitra, 2026
 ## {background-image="attachments/odp/looking-in.png" background-size="80%"}
 
 
-## {background-image="attachments/odp/slide07-1.png" background-size="contain"}
+##
 
-[We get KPIs!]{.callout-box .absolute top="33%" left="30%"}
+![](attachments/odp/bad-1.png){.shot fig-align="center"}
+
+##
+
+![](attachments/odp/bad-2.png){.shot fig-align="center"}
+
+##
+
+![](attachments/odp/meity-1.gif){.shot width="110%" fig-align="center"}
+
+
 
 
 ## {.center .textcenter}
@@ -102,7 +112,7 @@ Any problem can be solved by the creation of a new dashboard, which gives the ap
 
 :::: {.columns}
 ::: {.column .colmid width="28%"}
-**Nobody's taking pictures of a dataset being released**
+### Nobody's taking badass pictures of a dataset being released
 :::
 ::: {.column width="72%"}
 ![](attachments/odp/slide12-1.png){.bleed}
@@ -160,7 +170,7 @@ Strangers,<br>no known questions,<br>cannot take action
 ## {.center .textcenter}
 
 ::: r-fit-text
-**Their only possible action<br>is more work with the data**
+**Their only possible action<br>is <mark>more work with the data</mark>**
 :::
 
 A story, a paper, a campaign, a tool
@@ -195,16 +205,10 @@ What can generous<br>infrastructure look like?
 :::
 
 
-##
+## State censorship is recorded in certificates near the toilet in my nearest theater
 
-:::: {.columns}
-::: {.column width="50%"}
-![](attachments/odp/slide24-1.png){.bleed}
-:::
-::: {.column .colmid width="50%"}
-**State censorship is recorded<br>in certificates near the toilet<br>in my nearest theater**
-:::
-::::
+![](attachments/odp/censor.jpg){.shot width="110%" fig-align="center"}
+
 
 
 ## {.center .textcenter}
@@ -226,19 +230,14 @@ What can generous<br>infrastructure look like?
 ::::
 
 
-## {background-image="attachments/odp/slide26-1.png" background-size="contain"}
+## {background-image="attachments/odp/cbfc-chart.png" background-size="contain"}
 
 
-##
+## {background-image="attachments/odp/slide27-1.png" background-size="contain"}
 
-:::: {.columns}
-::: {.column .colmid width="40%"}
-**The Government had<br>other plans in store**
-:::
-::: {.column width="60%"}
-![](attachments/odp/slide27-1.png){.bleed .contain}
-:::
-::::
+
+![](attachments/odp/downvoted.png){.sketch .absolute right="-1%" bottom="-1%" height="440"}
+
 
 
 ## {background-color="#0d1117" .center .textcenter}
@@ -251,20 +250,20 @@ What can generous<br>infrastructure look like?
 `└──` [`data.csv`]{.csv .fragment fragment-index=1}
 :::
 
-[Every film, every cut, every certificate — in one file]{.kicker .fragment fragment-index=1}
+[Every film, every cut, every certificate in one file!]{.kicker .fragment fragment-index=1}
 
 
 ## {background-image="attachments/odp/slide29-1.png" background-size="contain"}
 
 
-## {.textcenter}
+## {.textcenter background-color="#F1E6DC"}
 
 [Horses? Maps? Shah Rukh Khan?]{.kicker}
 
 ![](attachments/odp/slide30-1.png){width="78%"}
 
 
-##
+## { background-color="#F1E6DC"}
 
 ::::: {.columns}
 :::: {.column .colmid width="46%"}
@@ -285,14 +284,13 @@ Why would you *not* want your users to share things? Everything is linkable!
 :::::
 
 
-## {background-image="attachments/odp/slide32-1.png" background-size="contain"}
+## {background-image="attachments/odp/slide32-1.png" background-size="contain"  background-color="#F1E6DC"}
 
 
 ## {background-color="#0d1117" .textcenter}
 
-![](attachments/odp/slide33-1.png){width="60%"}
+![](attachments/odp/slide33-1.png){width="110%"}
 
-![](attachments/odp/slide33-2.png){width="85%"}
 
 
 ##
@@ -356,39 +354,39 @@ Who spends more time<br>cleaning up after meals?
 
 ## {.textcenter}
 
-![](attachments/odp/slide45-1.png){width="78%"}
+![](attachments/odp/slide45-1.png){width="72%"}
 
 **Every field is a numeric code**
 
 
 ## {auto-animate="true" auto-animate-duration="0.8" auto-animate-easing="ease-in-out" .textcenter}
 
-| sector | district | gender | religion | activity |
+| [sector]{data-id="h1"} | [district]{data-id="h2"} | [gender]{data-id="h3"} | [religion]{data-id="h4"} | [activity]{data-id="h5"} |
 |:------:|:--------:|:------:|:--------:|:--------:|
 | [1]{data-id="c11" .code} | [13]{data-id="c12" .code} | [1]{data-id="c13" .code} | [1]{data-id="c14" .code} | [31]{data-id="c15" .code} |
 | [1]{data-id="c21" .code} | [13]{data-id="c22" .code} | [2]{data-id="c23" .code} | [1]{data-id="c24" .code} | [92]{data-id="c25" .code} |
 | [2]{data-id="c31" .code} | [13]{data-id="c32" .code} | [1]{data-id="c33" .code} | [2]{data-id="c34" .code} | [11]{data-id="c35" .code} |
 
-::: {.codebook data-id="codebook"}
-`sector` 1 = Rural · 2 = Urban<br>
-`district` 13 = Jammu<br>
-`gender` 1 = male · 2 = female<br>
-`activity` 11 = self-employed · 31 = salaried work · 92 = domestic duties
-....
+**The codes mean nothing without<br>a separate codebook**
+
+::: {.codebook .absolute top="6%"}
+`codebook.pdf` sector 1 = Rural · 2 = Urban · gender 2 = female · religion 2 = Islam · activity 92 = domestic duties · …
 :::
 
-**The codes mean nothing without<br>a separate codebook**
+![](attachments/odp/tangled.png){.sketch .absolute right="-1%" bottom="-1%" height="440"}
 
 
 ## {auto-animate="true" auto-animate-duration="0.8" auto-animate-easing="ease-in-out" .textcenter}
 
-| sector | district | gender | religion | activity |
+| [sector]{data-id="h1"} | [district]{data-id="h2"} | [gender]{data-id="h3"} | [religion]{data-id="h4"} | [activity]{data-id="h5"} |
 |:------:|:--------:|:------:|:--------:|:--------:|
 | [Rural]{data-id="c11" .label} | [Jammu]{data-id="c12" .label auto-animate-delay="0.1"} | [male]{data-id="c13" .label auto-animate-delay="0.2"} | [Hinduism]{data-id="c14" .label auto-animate-delay="0.3"} | [salaried work]{data-id="c15" .label auto-animate-delay="0.4"} |
 | [Rural]{data-id="c21" .label} | [Jammu]{data-id="c22" .label auto-animate-delay="0.1"} | [female]{data-id="c23" .label auto-animate-delay="0.2"} | [Hinduism]{data-id="c24" .label auto-animate-delay="0.3"} | [domestic duties]{data-id="c25" .label auto-animate-delay="0.4"} |
 | [Urban]{data-id="c31" .label} | [Jammu]{data-id="c32" .label auto-animate-delay="0.1"} | [male]{data-id="c33" .label auto-animate-delay="0.2"} | [Islam]{data-id="c34" .label auto-animate-delay="0.3"} | [self-employed]{data-id="c35" .label auto-animate-delay="0.4"} |
 
 **Do the work: map it once,<br>publish one usable file**
+
+![](attachments/odp/solved.png){.sketch .absolute right="-1" bottom="-1%" height="440"}
 
 
 ## {.textcenter}
@@ -498,4 +496,4 @@ Just publish the data
 
 ## {background-image="attachments/odp/slide61-2.png" background-size="cover" .textcenter}
 
-[Let us build things that start something, not things where the reader stops]{.callout-box}
+[Let us build things that start something, not things where the reader stops]{.callout-box .fragment}

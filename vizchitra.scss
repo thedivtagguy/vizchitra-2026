@@ -130,6 +130,9 @@ body {
 }
 .reveal .colmid p { margin: 0.25em 0; }
 
+// Line-art illustration — multiply blend melts the white box into the paper
+.reveal img.sketch { mix-blend-mode: multiply; }
+
 // Framed screenshot — subtle shadow + rounded corners
 .reveal img.shot {
   box-shadow: 0 10px 34px rgba(0, 0, 0, 0.18);
@@ -238,13 +241,22 @@ body {
   }
 }
 
-// Cell values in the transform tables: coded chips morph into plain labels
+// Cell values in the transform tables: coded chips morph into plain labels.
+// Chips are fixed-width per column so auto-animate has no size delta to
+// scale — the transition is a pure color/background fade.
 .reveal td .code,
 .reveal td .label {
   display: inline-block;
   padding: 0.05em 0.4em;
   border-radius: 4px;
+  text-align: center;
+  white-space: nowrap;
 }
+.reveal td:nth-child(1) .code, .reveal td:nth-child(1) .label { width: 4em; }
+.reveal td:nth-child(2) .code, .reveal td:nth-child(2) .label { width: 4em; }
+.reveal td:nth-child(3) .code, .reveal td:nth-child(3) .label { width: 4.5em; }
+.reveal td:nth-child(4) .code, .reveal td:nth-child(4) .label { width: 5.5em; }
+.reveal td:nth-child(5) .code, .reveal td:nth-child(5) .label { width: 9em; }
 .reveal td .code {
   font-family: SFMono-Regular, Menlo, Consolas, monospace;
   color: $theme-indigo;
@@ -271,8 +283,8 @@ body {
 
   .ecert-head {
     display: block;
-    background: #1ba9e1;
-    color: #fff;
+    background: #009AD0;
+    color: #000;
     font-weight: 700;
     letter-spacing: 0.02em;
     padding: 0.55em 1.2em;
@@ -303,6 +315,19 @@ body {
       font-family: $font-family-sans-serif;
     }
     th { border-bottom: 1px solid #9a9a9a; }
+
+    // Pandoc bakes inline col widths from the markdown dash rows — ignore them
+    col { width: auto !important; }
+
+    th:first-child, td:first-child {
+      width: 1%;
+      white-space: nowrap;
+      padding: 0.3em 0.5em;
+    }
+    th:last-child, td:last-child {
+      width: 1%;
+      white-space: nowrap;
+    }
   }
 }
 
@@ -331,17 +356,18 @@ body {
   }
 }
 
-// Codebook excerpt card
+// Codebook excerpt — one tiny line, pinned via {.absolute top=…} and
+// self-centered so it never shifts the table below it
 .reveal .codebook {
-  display: inline-block;
-  text-align: left;
-  font-size: 0.6em;
-  line-height: 1.8;
+  font-size: 0.5em;
+  line-height: 1.4;
+  white-space: nowrap;
   background: $theme-light;
   border: 2px dashed rgba($theme-grey, 0.55);
   border-radius: 6px;
-  padding: 0.7em 1.3em;
-  margin-bottom: 0.8em;
+  padding: 0.6em 1.2em;
+  left: 50%;
+  transform: translateX(-50%);
 
   code {
     background: none;
