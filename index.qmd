@@ -259,7 +259,7 @@ What can generous<br>infrastructure look like?
 
 ![](attachments/odp/slide33-1.png){width="104%" .bleed}
 
-[Linkable pages makes us *the* source.]{.callout-box .fragment .absolute bottom="4%" right="50%"}
+[Linkable pages makes us *the* source.]{.callout-box .absolute bottom="4%" right="50%"}
 
 
 
