@@ -434,12 +434,14 @@ the next person's work is built on.
 Charts are only advertisements
 :   They will draw attention for the dataset.
 
-Link are a vehicle to the world
+Links are a vehicle to the world
 :   They let things travel outwards.
 
 The data is the product
 :   Please, just publish the data. Seedhi baat, no bakwaas.
 
+
+If you do nothing else this month, ship a CSV!
 
 ## {background-image="attachments/odp/slide61-2.png" background-size="cover" .textcenter}
 
